@@ -1,0 +1,71 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#banner {
+  background-color: red;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+#p1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1.3em;
+}
+
+#header {
+  background-color: greenyellow;
+  text-align: center;
+}
+
+#box1 {
+  display: inline-block;
+}
+
+#title1 {
+  color: white;
+  font-size: 4em;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+#image1 {
+  height: 5em;
+  width: auto;
+}
+
+#text1 {
+  background-image: url('/images/beach.jpg');
+  height: 15em;
+}
+
+#p2 {
+  margin: 0px;
+  padding: 1em;
+  font-size: 1em;
+}
+
+#part3 {
+  display: block;
+}
+
+#left {
+  width: 40%;
+  background-color: greenyellow;
+  float: left;
+}
+
+#right {
+  width: 60%;
+  background-color: orangered;
+  display: inline-block;
+}
