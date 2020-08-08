@@ -6,7 +6,7 @@
         background-color: white;
     }
     #text0 {
-        font-size: 2em;
+        font-size: 2.7em;
     }
     #navi {
         font-size: 8rem;
@@ -25,7 +25,7 @@
         margin-top: 5rem;
     }
     #text2 {
-        font-size: 2em;
+        font-size: 2.7em;
     }
     #bild1 {
         opacity: 0.7;
@@ -45,7 +45,7 @@
         width: 100%;
     }
     #cta1 {
-        font-size: 2em;
+        font-size: 3em;
     }
     #c2 {
         margin-left:0;
@@ -64,22 +64,32 @@
         max-width: 100%;
     }
     #text4 {
-        font-size: 2em;
+        font-size: 2.7em;
     }
     .bild2 {
-        width: 14rem;
-        height: 14rem;
+        width: 22rem;
+        height: 22rem;
     }
     .bild3 {
         width: 20rem;
         height: 20rem;
     }
     #p1 {
-        font-size: 2em;
+        font-size: 2.7em;
     }
     #cta2 {
-        font-size: 2em;
+        font-size: 3em;
         margin: 1em;
+    }
+    .reihe {
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+    #c3 {
+        flex-basis: auto;
+        width: 100%;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
 } 
 
@@ -121,6 +131,10 @@
         width: 9rem;
         height: 9rem;
     }
+    .reihe {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+    }
 }
 
 .header {
@@ -136,10 +150,6 @@
 #cta1 {
     margin-top: 1em;
     margin-bottom: 1em;
-}
-.reihe {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
 }
 #part3 {
   
