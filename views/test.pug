@@ -6,8 +6,8 @@ html
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
   body#body
     header.header.mt-auto.py-3
-      .container
-        span.text-muted Nur limitierte Plätze verfügbar! Melden sie sich innerhalb von 15 Minuten kostenlos an um sich ein Platz zu sichern.
+      .container#c5
+        span.text-muted#text0 Nur limitierte Plätze verfügbar! Melden sie sich innerhalb von 15 Minuten kostenlos an um sich ein Platz zu sichern.
     .text-center#navi
         span Bitcoin World
         img#logo(
@@ -19,18 +19,22 @@ html
             src='/images/bild1cut.jpg'
             class='img-thumbnail'
         )
+        img#bild1b(
+            src='/images/bild1cut2.jpg'
+            class='img-thumbnail'
+        )
         span#text1 Noch kein Großes Haus mit Pool und Porsche in der Garage? Dann kannst Du sofort mit unserer neuen Spitzentechnologie und Algorithmen schon über 3.000 tausend Euro am Tag verdienen!
-    .container#part2
+    .container-fluid#part2
         .row
-            .col-sm 
-                .container.border.rounded 
+            .col#c1
+                .container.border.rounded#c2
                     .container#ctext2
                         span#text2 Haben sie es Leid jeden Tag zu von früh bis abends zu arbeiten und trotzdem kein Geld im Konto zu haben? Melden sie sich gleich noch kostenlos an und verdienen sie heute schon Geld. Mit unserem Bitcoin Algorithmus können sie mit 20 Minuten Arbeit am Tag schon 3400€ in der Woche verdienen.
                     button#cta1(
                         type='button'
                         class='btn btn-warning'
                     ) Starten sie jetzt und seien sie morgen schon Reich! Starten sie jetzt weil es ihre Zukunft ist!
-            .col-sm 
+            .col#c1
                 .container
                     .row.reihe
                         .col-md-auto
@@ -39,7 +43,7 @@ html
                                 class='rounded-circle'
                             )
                         .col
-                            span Christopher Bauer, Handwerker, verdient bis zu 9.730 Euro im Monat weil er unseren Finanzberatern getraut hat.
+                            span#text4 Christopher Bauer, Handwerker, verdient bis zu 9.730 Euro im Monat weil er unseren Finanzberatern getraut hat.
                     .row.reihe
                         .col-md-auto
                             img.bild2(
@@ -47,7 +51,7 @@ html
                                 class='rounded-circle'
                             )
                         .col
-                            span Maximilian Fischer, Finanz Abschluss von der Humboldt-Universität Berlin, verdient mit unserer Exklusiven Technologie 10.479 Euro im Monat.
+                            span#text4 Maximilian Fischer, Finanz Abschluss von der Humboldt-Universität Berlin, verdient mit unserer Exklusiven Technologie 10.479 Euro im Monat.
                     .row.reihe
                         .col-md-auto
                             img.bild2(
@@ -55,38 +59,30 @@ html
                                 class='rounded-circle'
                             )
                         .col
-                            span Ben Neumann, Graffitikünstler, verdient neben seiner Kunst 3.639 Euro mit 10 Minuten Arbeit am Tag.
+                            span#text4 Ben Neumann, Graffitikünstler, verdient neben seiner Kunst 3.639 Euro mit 10 Minuten Arbeit am Tag.
     .container#part3
         .row.reihe2
-            .col
+            .col#c1
                 img.bild3(
                                 src='/images/icon1.png'
                                 class='rounded'
                             )
-            .col
+                p.font-weight-bold#p1 Melden sie sich schnell und kostenlos an.
+                p#p1 Sobald ihre Registrierung akzeptiert wurde, werden sie gleich von ihrem persönlichen Finanzberater kontaktiert und sind ein Teil der Bitcoin World Familie.
+            .col#c1
                 img.bild3(
                                 src='/images/icon2.png'
                                 class='rounded'
                             )
-            .col
+                p.font-weight-bold#p1 Ihr Konto einzahlen
+                p#p1 Sie benötigen ein Betriebskapital von 250€ mit dem sie gleich anfangen können zu traden. Ihr Berater wird ihn bei jedem Schritt zur Seite stehen.
+            .col#c1
                 img.bild3(
                                 src='/images/icon3.png'
                                 class='rounded'
                             )
-        .row.reihe2
-            .col
-                span.font-weight-bold Melden sie sich schnell und kostenlos an. 
-            .col
-                span.font-weight-bold Ihr Konto einzahlen 
-            .col
-                span.font-weight-bold Verdienen! 
-        .row
-            .col
-                span Sobald ihre Registrierung akzeptiert wurde, werden sie gleich von ihrem persönlichen Finanzberater kontaktiert und sind ein Teil der Bitcoin World Familie.
-            .col
-                span Sie benötigen ein Betriebskapital von 250€ mit dem sie gleich anfangen können zu traden. Ihr Berater wird ihn bei jedem Schritt zur Seite stehen.
-            .col
-                span Nutzen sie unseren preisgekrönten Algorithmus für den präzisen und akkuraten Handel. Oder Handeln sie Manuel wenn Sie es vorziehen, auf eigener Hand zu agieren. Genießen sie die tausende von Euros die dein Konto bereichern werden.
+                p.font-weight-bold#p1 Verdienen!
+                p#p1 Nutzen sie unseren preisgekrönten Algorithmus für den präzisen und akkuraten Handel. Oder Handeln sie Manuel wenn Sie es vorziehen, auf eigener Hand zu agieren. Genießen sie die tausende von Euros die dein Konto bereichern werden.
     .text-center#part4
         button#cta2(
                         type='button'
