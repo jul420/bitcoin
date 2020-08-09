@@ -1,71 +1,87 @@
-body {
-  padding: 0px;
-  margin: 0px;
+.body {
+  background-color: #96d2ff
 }
 
-a {
-  color: #00B7FF;
-}
-
-#banner {
-  background-color: red;
+#c1 {
+  background-color: crimson;
   color: white;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
 }
 
-#p1 {
-  margin: 0px;
-  padding: 0px;
-  font-size: 1.3em;
+#c4 {
+  padding-top: 3em;
+  padding-bottom: 3em;
 }
 
-#header {
-  background-color: greenyellow;
-  text-align: center;
+.s1{
+  font-size: 3em;
 }
 
-#box1 {
-  display: inline-block;
+#logo {
+  width: 8em;
+  height: 8em;
+  margin: 2em;
 }
-
-#title1 {
-  color: white;
-  font-size: 4em;
-  float: left;
-  margin: 0px;
-  padding: 0px;
+#title {
+  font-size: 8em;
 }
-
-#image1 {
-  height: 5em;
-  width: auto;
+#bild1 {
+  opacity: 0.7;
+  max-width: 100%;
 }
 
 #text1 {
-  background-image: url('/images/beach.jpg');
-  height: 15em;
+  position: absolute;
+  color: white;
+  width: 90%;
+  max-width: 900px;
+  font-size: 3em;
+  margin-top: 2em;
 }
 
-#p2 {
-  margin: 0px;
-  padding: 1em;
-  font-size: 1em;
+#cta1 {
+  font-size: 3em;
+  margin: 1em;
 }
 
-#part3 {
-  display: block;
+.bild2 {
+  width: 40rem;
+  height: 40rem;
 }
 
-#left {
-  width: 40%;
-  background-color: greenyellow;
-  float: left;
+#colu {
+  width: 100%;
+  text-align: center;
 }
 
-#right {
-  width: 60%;
-  background-color: orangered;
-  display: inline-block;
+.reihe {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/*Medium devices (landscape tablets >= 768px)*/ 
+@media only screen and (min-width: 1000px) {
+  .s1{
+    font-size: 1.5em;
+  }
+  #text1{
+    font-size: 2em;
+  }
+  #cta1 {
+    font-size: 2em;
+  }
+  .bild2 {
+    width: 17rem;
+    height: 17rem;
+  }
+  #colu {
+    width: auto;
+    text-align: center;
+  }
+  #c5 {
+    margin-top: 5em;
+  }
+  .bild3 {
+    width: 17rem;
+    height: 17rem;
+  }
 }
