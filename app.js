@@ -7,6 +7,8 @@ require('dotenv').config();
 
 var log = require('simple-node-logger').createSimpleLogger('./public/project.log');
 var mongoose = require('mongoose');
+var ip = require('ip');
+log.info('ip: ' + ip.address());
 
 mongoose.connect('mongodb+srv://express:Rl6AKeIemfO4HlYP@bitcoinworld.ccjp5.azure.mongodb.net/bitcoinworld?retryWrites=true&w=majority', {
   useNewUrlParser: true,
@@ -22,10 +24,8 @@ mongoose.connection.on('error', (err) => {
 });
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var registerRouter = require('./routes/register');
 var testRouter = require('./routes/test');
-
-var birds = require('./birds');
 
 var app = express();
 
@@ -40,8 +40,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/birds', birds);
+app.use('/register', registerRouter);
 app.use('/test', testRouter);
 
 // catch 404 and forward to error handler
