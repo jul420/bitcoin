@@ -3,6 +3,23 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+require('dotenv').config();
+
+var log = require('simple-node-logger').createSimpleLogger('./public/project.log');
+var mongoose = require('mongoose');
+
+mongoose.connect('mongodb+srv://express:Rl6AKeIemfO4HlYP@bitcoinworld.ccjp5.azure.mongodb.net/bitcoinworld?retryWrites=true&w=majority', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+
+mongoose.connection.on('open', () => {
+  log.info('mongoose connection open');
+});
+
+mongoose.connection.on('error', (err) => {
+  log.info(`connection error: ${err.message}`);
+});
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
