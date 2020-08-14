@@ -1,0 +1,17 @@
+doctype html(lang='en')
+head
+    meta(charset='utf-8')
+    title BitcoinWorld   
+    base(href='') 
+    meta(name='viewport', content='width=device-width, initial-scale=1') 
+    link(rel='stylesheet', href='/stylesheets/style3.css')
+body
+    .btc-widget-block
+      #btc-widget   
+    script(src='/javascripts/crypto-widget.js')   
+    script.
+      Currency.init({
+      el: '#btc-widget',
+      currency: 'BTC',
+      widget: 'block'
+      })

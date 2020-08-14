@@ -1,83 +1,304 @@
-extends layout
-
-block content
-  body.body
+doctype html
+html
+  head
+    title= "Bitcoin World"
+    script(src='/javascripts/jquery-3.5.1.min.js')
+    script(src='/javascripts/bootstrap.min.js')
+    script(src='/javascripts/script.js')
+    link(rel='stylesheet', href='/stylesheets/style3.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='shortcut icon' type='image/x-icon' href='/images/icon.ico')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+  body#body
     .text-center#c1
       span.s1 Nur limitierte Plätze verfügbar! Melden sie sich innerhalb von 15 Minuten kostenlos an um sich ein Platz zu sichern.
     .text-center#c2
-      span#title Bitcoin World
       img#logo(
-            src='/images/bitcoin.svg'
+            src='/images/bitcoin.png'
             class='align-top'
-        ) 
-    .d-flex.justify-content-center#c3
-      img#bild1(
-          src='/images/bild1cut2.jpg'
-      )
-      span#text1 Noch kein Großes Haus mit Pool und Porsche in der Garage? Dann kannst Du sofort mit unserer neuen Spitzentechnologie und Algorithmen schon über 3.000 tausend Euro am Tag verdienen!
-    .container-fluid#c4     
-      .row
-        .col
-          .text-center#c5
-            .container-fluid
-              span.s1 Haben sie es Leid jeden Tag zu von früh bis abends zu arbeiten und trotzdem kein Geld im Konto zu haben? Melden sie sich gleich noch kostenlos an und verdienen sie heute schon Geld. Mit unserem Bitcoin Algorithmus können sie mit 20 Minuten Arbeit am Tag schon 3400€ in der Woche verdienen.
-            a#cta1(
-                          type='button'
-                          class='btn btn-warning'
-                          href='/register'
-                      ) Starten sie jetzt und seien sie morgen schon Reich! Starten sie jetzt weil es ihre Zukunft ist!
-        .col
-          .container-fluid
-            .row.reihe
-              .col-md-auto#colu
-                  img.bild2(
-                      src='/images/bild2cut.jpg'
-                      class='rounded-circle'
-                  )
-              .col#colu
-                  span.s1 Christopher Bauer, Handwerker, verdient bis zu 9.730 Euro im Monat weil er unseren Finanzberatern getraut hat.
-            .row.reihe
-              .col-md-auto#colu
-                  img.bild2(
-                      src='/images/bild3.jpg'
-                      class='rounded-circle'
-                  )
-              .col#colu
-                  span.s1 Maximilian Fischer, Finanz Abschluss von der Humboldt-Universität Berlin, verdient mit unserer Exklusiven Technologie 10.479 Euro im Monat.
-            .row.reihe
-              .col-md-auto#colu
-                  img.bild2(
-                      src='/images/bild4.jpg'
-                      class='rounded-circle'
-                  )
-              .col#colu
-                  span.s1 Ben Neumann, Graffitikünstler, verdient neben seiner Kunst 3.639 Euro mit 10 Minuten Arbeit am Tag.
-    .container-fluid#c6
-      .row
-        .col#colu
-            img.bild3(
-                            src='/images/icon1.png'
-                            class='rounded'
-                        )
-            p.font-weight-bold.s1 Melden sie sich schnell und kostenlos an.
-            p.s1 Sobald ihre Registrierung akzeptiert wurde, werden sie gleich von ihrem persönlichen Finanzberater kontaktiert und sind ein Teil der Bitcoin World Familie.
-        .col#colu
-            img.bild3(
-                            src='/images/icon2.png'
-                            class='rounded'
-                        )
-            p.font-weight-bold.s1 Ihr Konto einzahlen
-            p.s1 Sie benötigen ein Betriebskapital von 250€ mit dem sie gleich anfangen können zu traden. Ihr Berater wird ihn bei jedem Schritt zur Seite stehen.
-        .col#colu
-            img.bild3(
-                            src='/images/icon3.png'
-                            class='rounded'
-                        )
-            p.font-weight-bold.s1 Verdienen!
-            p.s1 Nutzen sie unseren preisgekrönten Algorithmus für den präzisen und akkuraten Handel. Oder Handeln sie Manuel wenn Sie es vorziehen, auf eigener Hand zu agieren. Genießen sie die tausende von Euros die dein Konto bereichern werden.
-    .text-center
-        a#cta1(
-                        type='button'
-                        class='btn btn-danger'
-                        href='/register'
-                    ) Starten sie jetzt und seien sie morgen schon Reich! Starten sie jetzt weil es ihre Zukunft ist!
+        )
+      span#title1 Bitcoin 
+      span#title2 World 
+    .text-center#c3
+      p#p2 BITCOIN MACHT MENSCHEN REICH
+      p#p3 Und du kannst der #[span#s2 NÄCHSTE MILLIONÄR] werden...
+      .embed-responsive.embed-responsive-16by9.shadow-lg.p-3.mb-5.rounded#video2
+        iframe.embed-responsive-item#video(
+          src='/images/video.mp4'
+          allowfullscreen
+        )
+      .text-center.shadow-lg.p-3.mb-5.rounded#c4
+        p#p4 ÄNDER DEIN LEBEN HEUTE!
+        form(action="#")
+        .form-group
+        input#i1(
+            type='text'
+            class='form-control'
+            aria-describedby='Vorname'
+            placeholder='Vorname'
+        )
+        input#i1(
+            type='text'
+            class='form-control'
+            aria-describedby='Nachname'
+            placeholder='Nachname'
+        )
+        input#i1(
+            type='email'
+            class='form-control'
+            aria-describedby='Email'
+            placeholder='Emailadresse'
+        )
+        input#i1(
+            type='tel'
+            class='form-control'
+            aria-describedby='Nummer'
+            placeholder='Telefonnummer'
+        )
+        button#b1(
+            type='submit'
+            class='btn btn-primary btn-lg btn-block'
+        ) JETZT ANFANGEN
+        p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
+      .container-fluid#c5
+        .row
+          .col
+            img.img2(
+                src='/images/bitgo.jpg'
+                class='align-top'
+            )
+          .col
+            img.img2(
+            src='/images/norton.jpg'
+            class='align-top'
+            )
+          .col
+            img.img2(
+            src='/images/secure-trading.jpg'
+            class='align-top'
+            )
+        .row#row1
+          .col
+            img.img2(
+              src='/images/mcafee.jpg'
+              class='align-top'
+            )
+        .row#row1
+          .col
+            span#s3 BID 
+            span#s4 10001€
+          .col
+            span#s3 ASK 
+            span#s5 10002€
+    .text-center#c6
+        p#p6 Mitmachen und durch Bitcoin World reich werden!
+        p#p7 Die Bitcoin World ist eine Gruppe, die ausschließlich Personen vorbehalten ist, die auf die wahnsinnigen Renditen von Bitcoin gesetzt haben und dabei stillschweigend ein Vermögen angehäuft haben. Unsere Mitglieder genießen jeden Monat Einkünfte auf der ganzen Welt, während sie mit nur wenigen Minuten „Arbeit“ pro Tag Geld auf ihrem Laptop verdienen.
+        p#p8 WIE GESEHEN AUF:
+        .container-fluid#c7
+            .row
+                .col
+                    img.img2(
+                        src='/images/cnn.jpg'
+                        class='align-top'
+                    )
+                .col
+                    img.img2(
+                    src='/images/forbes.jpg'
+                    class='align-top'
+                    )
+                .col
+                    img.img2(
+                    src='/images/ft.jpg'
+                    class='align-top'
+                    )
+    .text-center#c8
+        p#p9 ECHTE ERGEBNISSE UNSERER BENUTZER
+        .container-fluid#c9
+            .row#row2
+                .col-12#c10
+                    img.img3(
+                                src='/images/bild2cut.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c11
+                        p#p10 Christopher B.
+                        p#p11 Handwerker
+                        p#p12 Gewinn: 9.730€
+                    .container-fluid#c16
+                    .container-fluid#c12
+                        p#p13 „Ich weiß endlich, wie es ist, den Traum zu leben. Ich habe nicht mehr das Gefühl, draußen zu sein und nach innen zu schauen, während alle anderen den ganzen Spaß haben. Mit Bitcoin World konnte ich mich frühzeitig zurückziehen und den 1% -Lebensstil leben."
+                .col-12#c10
+                    img.img3(
+                                src='/images/bild4.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c15
+                        p#p10 Ben N.
+                        p#p11 Graffitikünstler
+                        p#p12 Gewinn: 3.639€
+                    .container-fluid#c18
+                    .container-fluid#c19
+                        p#p13 „Vor zwei Wochen wurde ich entlassen. Da ich keine Optionen mehr hatte, dachte ich, mein Leben sei vorbei. Jetzt verdiene ich jeden Tag über 1.261,42 EUR. Und zum ersten Mal seit 2 Monaten ist mein Konto nicht überzogen. Danke, Bitcoin World!"
+                .col-12#c10   
+                    img.img3(
+                                src='/images/bild3.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c13
+                        p#p10 Maximilian F.
+                        p#p11 Finanzwissenschaftler
+                        p#p12 Gewinn: 10.479€
+                    .container-fluid#c17
+                    .container-fluid#c14
+                        p#p13 „Überraschenderweise war ich früher ein Investor an der Wall Street. Und so etwas habe ich in meiner 10-jährigen Amtszeit noch nie gesehen. Alle meine Kollegen hielten mich für verrückt, als ich die Firma verließ, um ganztägig in die Bitcoin World-Software zu investieren."
+                .col-12#c10
+                    img.img3(
+                                src='/images/bild5.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c20
+                        p#p10 Lena W.
+                        p#p11 Studentin
+                        p#p12 Gewinn: 7.254€
+                    .container-fluid#c21
+                    .container-fluid#c22
+                        p#p13 „Ich bin erst 47 Tage Mitglied von Bitcoin World. Aber mein Leben hat sich schon verändert! Ich habe nicht nur meine ersten 10.000 Euro verdient, sondern auch einige der unglaublichsten Leute getroffen. Danke, Bitcoin World!"
+    .text-center#c23
+        .row
+            .col-12
+                img.img4(
+                        src='/images/target.svg'
+                        class='align-top'
+                    )
+                p#p14 LASER-PRÄZISE PERFORMANCE
+                p#p15 Es gibt keine andere Trading-App auf der Welt, die eine Genauigkeit von 99,4% aufweist, welche The Bitcoin World erreicht. Deshalb vertrauen unsere Mitglieder aus der ganzen Welt darauf, dass wir ihr hart verdientes Geld verdoppeln, verdreifachen und vervierfachen.
+            .col-12
+                img.img4(
+                        src='/images/startup.svg'
+                        class='align-top'
+                    )
+                p#p14 ÜBERLEGENE TECHNOLOGIE
+                p#p15 Die Bitcoin World-Software wurde mit der fortschrittlichsten Programmierung erstellt, die die Handelswelt jemals gesehen hat. Die Software ist den Märkten um 0,01 Sekunden voraus. Dieser "Zeitsprung" macht die Software zur beständigsten Trading-App der Welt.
+            .col-12
+                img.img4(
+                        src='/images/trophy.svg'
+                        class='align-top'
+                    )
+                p#p14 PREISGEKRÖNTE TRADING APP
+                p#p15 Die Bitcoin World App wurde mehrfach ausgezeichnet. Die jüngste Auszeichnung, die wir erhalten haben, ist die Nummer 1 in der Kategorie Handelssoftware für die US Trading Association.
+        button.btn.btn-lg#cta2 JETZT BEITRETEN
+    .text-center#c24
+    .text-center#c25
+        .row#row2
+            .col-12
+                img.img4(
+                        src='/images/resume.svg'
+                        class='rounded-circle'
+                    )
+                p#p16 REGISTRIEREN AUF DER SEITE
+                p#p17 Sobald Ihre Registrierung akzeptiert wurde, werden Sie automatisch das neueste Mitglied der Bitcoin World. Und Sie können unsere proprietäre Bitcoin-Handelssoftware kostenlos in Anspruch nehmen.
+            .col-12
+                img.img4(
+                        src='/images/piggy.svg'
+                        class='align-top'
+                    )
+                p#p16 AUF DEIN KONTO EINZAHLEN
+                p#p17 Wie in jedem Unternehmen benötigen Sie Betriebskapital, um loszulegen. Um von Bitcoin World zu profitieren, müssen Sie einen beliebigen Betrag von 250 EUR oder mehr investieren.
+            .col-12
+                img.img4(
+                        src='/images/money.svg'
+                        class='align-top'
+                    )
+                p#p16 FERTIG
+                p#p17 Klicken Sie auf Trading, um präzises und automatisches Handeln zu genießen, das von unserem preisgekrönten Algorithmus unterstützt wird. Sie können den Handel auch auf manuell einstellen, wenn Sie lieber alleine handeln möchten.
+        button.btn.btn-lg#cta3 KOSTENLOSEN ACCOUNT ÖFFNEN
+    .text-center#c26
+        p#p18 HÄUFIG GESTELLTE FRAGEN
+        .row
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Welche Ergebnisse kann ich erwarten?
+                    p#p20 Bitcoin World Mitglieder profitieren normalerweise von mindestens 1100 Euro pro Tag.
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Was ist der maximale Betrag, den ich verdienen kann?
+                    p#p20 Ihre Gewinne sind innerhalb der Bitcoin World unbegrenzt. Einige Mitglieder verdienten ihre erste Million innerhalb von nur 61 Tagen.
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Ist das wie MLM oder Affiliate Marketing?
+                    p#p20 Dies ist nicht wie MLM, Affiliate-Marketing oder irgendetwas anderes da draußen. Die Software gewinnt Trades mit einer Genauigkeit von 99,4%.
+        .row
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Wie viele Stunden pro Tag muss ich arbeiten?
+                    p#p20 Unsere Mitglieder arbeiten durchschnittlich 20 Minuten pro Tag oder weniger. Da die Software den Handel abwickelt, ist der Arbeitsaufwand minimal.
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Was kostet die Software?
+                    p#p20 Mitglieder des Bitcoin World erhalten kostenlos eine Kopie unserer proprietären Software. Um Mitglied zu werden, füllen Sie einfach das Formular auf dieser Seite aus.
+            .col-12
+                .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                    p#p19 Gibt es Gebühren?
+                    p#p20 Es gibt keine versteckten Gebühren. Keine Maklergebühren oder Provisionen. Ihr gesamtes Geld gehört zu 100% Ihnen und Sie können es jederzeit ohne Verzögerung abheben.
+    .text-center#c28
+        .text-center.shadow-lg.p-3.mb-5.rounded#c29
+            form(action="#")
+                .form-group
+                    input#i1(
+                        type='text'
+                        class='form-control'
+                        aria-describedby='Vorname'
+                        placeholder='Vorname'
+                    )
+                    input#i1(
+                        type='text'
+                        class='form-control'
+                        aria-describedby='Nachname'
+                        placeholder='Nachname'
+                    )
+                    input#i1(
+                        type='email'
+                        class='form-control'
+                        aria-describedby='Email'
+                        placeholder='Emailadresse'
+                    )
+                    input#i1(
+                        type='tel'
+                        class='form-control'
+                        aria-describedby='Nummer'
+                        placeholder='Telefonnummer'
+                    )
+                    button#b1(
+                        type='submit'
+                        class='btn btn-primary btn-lg btn-block'
+                    ) JETZT ANFANGEN
+                p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
+    .text-center#c30
+        .row#row3
+          .col
+            img.img2(
+                src='/images/mcafee.png'
+                class='align-top'
+            )
+          .col
+            img.img2(
+            src='/images/versign.png'
+            class='align-top'
+            )
+          .col
+            img.img2(
+            src='/images/symantec.png'
+            class='align-top'
+            )
+        .row#row1
+          .col
+            img.img2(
+                src='/images/geotrust.png'
+                class='align-top'
+            )
+          .col
+            img.img2(
+            src='/images/ssl.png'
+            class='align-top'
+            )
+        p#p21 #[span#s20 WICHTIGER RISIKO HINWEIS:] Der Handel mit Devisen und CFDs birgt aufgrund der Hebelwirkung des Handels ein hohes Verlustrisiko, das zum Totalverlust Ihres Kapitals führen kann und möglicherweise nicht für alle Arten von Anlegern geeignet ist. Bitte lesen Sie unsere vollständige Risikowarnung und den entsprechenden Broker, bei dem Sie registriert sind, um sicherzustellen, dass Sie die damit verbundenen Risiken verstehen, bevor Sie fortfahren, und berücksichtigen Sie dabei Ihre relevanten Erfahrungen. Lassen Sie sich bei Bedarf von einem unabhängigen Berater beraten. Die auf dieser Website und in den Offenlegungsdokumenten enthaltenen Informationen sind nur allgemeiner Natur und berücksichtigen nicht Ihre persönlichen Umstände, Ihre finanzielle Situation oder Ihre Bedürfnisse. Sie sollten die Brokerage-Kundenvereinbarung sorgfältig prüfen und unabhängigen Rat einholen, bevor Sie entscheiden, ob der Handel mit solchen Produkten für Sie geeignet ist.

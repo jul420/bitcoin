@@ -1,0 +1,12 @@
+#viewport {
+        box-sizing: border-box ;
+        height: 100% ;
+        overflow: auto ;
+        width: 100%;
+        position: fixed;
+}
+
+#wrapper {
+    position: relative;
+    font-size: 10em;
+}

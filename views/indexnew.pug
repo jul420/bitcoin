@@ -5,245 +5,39 @@ html
     script(src='/javascripts/jquery-3.5.1.min.js')
     script(src='/javascripts/bootstrap.min.js')
     script(src='/javascripts/script.js')
-    link(rel='stylesheet', href='/stylesheets/style2.css')
+    link(rel='stylesheet', href='/stylesheets/style3.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
-    link(rel='shortcut icon' type='image/x-icon' href='/images/bitcoin.ico')
-    //meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
-  body
-    .text-center#c1
-      span.s1 Nur limitierte Plätze verfügbar! Melden sie sich innerhalb von 15 Minuten kostenlos an um sich ein Platz zu sichern.
-    .text-center#c2
-      img#logo(
-            src='/images/bitcoin.svg'
-            class='align-top'
-        )
-      span#title1 Bitcoin 
-      span#title2 World 
-    .text-center#c3
-      p#p2 BITCOIN MACHT MENSCHEN REICH
-      p#p3 Und du kannst der #[span#s2 NÄCHSTE MILLIONÄR] werden...
-      .embed-responsive.embed-responsive-16by9.shadow-lg.p-3.mb-5.rounded
-        iframe.embed-responsive-item#video(
-          src='/images/video.mp4'
-          allowfullscreen
-        )
-      .text-center.shadow-lg.p-3.mb-5.rounded#c4
-        p#p4 ÄNDER DEIN LEBEN HEUTE!
-        form(action="#")
-        .form-group
-        input#i1(
-            type='text'
-            class='form-control'
-            aria-describedby='Vorname'
-            placeholder='Vorname'
-        )
-        input#i1(
-            type='text'
-            class='form-control'
-            aria-describedby='Nachname'
-            placeholder='Nachname'
-        )
-        input#i1(
-            type='email'
-            class='form-control'
-            aria-describedby='Email'
-            placeholder='Emailadresse'
-        )
-        input#i1(
-            type='tel'
-            class='form-control'
-            aria-describedby='Nummer'
-            placeholder='Telefonnummer'
-        )
-        button#b1(
-            type='submit'
-            class='btn btn-primary btn-lg btn-block'
-        ) JETZT ANFANGEN
-        p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
-      .container-fluid#c5
-        .row
-          .col
-            img.img2(
-                src='/images/bitgo.jpg'
+    link(rel='shortcut icon' type='image/x-icon' href='/images/icon.ico')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no')
+  body#body
+    .btc-widget-block
+        #btc-widget
+    script(src='/javascripts/crypto-widget.js')
+    script(src='/javascripts/info.js')
+    .text-center#content
+        .text-center#c1
+            span.s1 Nur limitierte Plätze verfügbar! Melden sie sich innerhalb von 15 Minuten kostenlos an um sich ein Platz zu sichern.
+        .text-center#c2
+            img#logo(
+                src='/images/bitcoin.png'
                 class='align-top'
             )
-          .col
-            img.img2(
-            src='/images/norton.jpg'
-            class='align-top'
-            )
-          .col
-            img.img2(
-            src='/images/secure-trading.jpg'
-            class='align-top'
-            )
-        .row#row1
-          .col
-            img.img2(
-              src='/images/mcafee.jpg'
-              class='align-top'
-            )
-        .row#row1
-          .col
-            span#s3 BID 
-            span#s4 10001€
-          .col
-            span#s3 ASK 
-            span#s5 10002€
-    .text-center#c6
-        p#p6 Mitmachen und durch Bitcoin World reich werden!
-        p#p7 Die Bitcoin World ist eine Gruppe, die ausschließlich Personen vorbehalten ist, die auf die wahnsinnigen Renditen von Bitcoin gesetzt haben und dabei stillschweigend ein Vermögen angehäuft haben. Unsere Mitglieder genießen jeden Monat Einkünfte auf der ganzen Welt, während sie mit nur wenigen Minuten „Arbeit“ pro Tag Geld auf ihrem Laptop verdienen.
-        p#p8 WIE GESEHEN AUF:
-        .container-fluid#c7
-            .row
-                .col
-                    img.img2(
-                        src='/images/cnn.jpg'
-                        class='align-top'
+            span#title1 Bitcoin 
+            span#title2 World 
+        .text-center#c3
+            p#p2 BITCOIN MACHT MENSCHEN REICH
+            p#p3 Und du kannst der #[span#s2 NÄCHSTE MILLIONÄR] werden...
+            .text-center#con2
+            .text-center#con1
+                .embed-responsive.embed-responsive-16by9.shadow-lg.p-3.mb-5.rounded#video2
+                    iframe.embed-responsive-item#video(
+                    src='/images/video.mp4'
+                    allowfullscreen
                     )
-                .col
-                    img.img2(
-                    src='/images/forbes.jpg'
-                    class='align-top'
-                    )
-                .col
-                    img.img2(
-                    src='/images/ft.jpg'
-                    class='align-top'
-                    )
-    .text-center#c8
-        p#p9 ECHTE ERGEBNISSE UNSERER BENUTZER
-            .container-fluid#c9
-                .row
-                    .col-12#c10
-                        img.img3(
-                                    src='/images/bild2cut.jpg'
-                                    class='align-top'
-                                )
-                        .container-fluid#c11
-                            p#p10 Christopher B.
-                            p#p11 Handwerker
-                            p#p12 Gewinn: 9.730€
-                        .container-fluid#c16
-                        .container-fluid#c12
-                            p#p13 „Ich weiß endlich, wie es ist, den Traum zu leben. Ich habe nicht mehr das Gefühl, draußen zu sein und nach innen zu schauen, während alle anderen den ganzen Spaß haben. Mit Bitcoin World konnte ich mich frühzeitig zurückziehen und den 1% -Lebensstil leben."
-                    .col-12
-                        img.img3(
-                                    src='/images/bild4.jpg'
-                                    class='align-top'
-                                )
-                        .container-fluid#c15
-                            p#p10 Ben N.
-                            p#p11 Graffitikünstler
-                            p#p12 Gewinn: 3.639€
-                        .container-fluid#c18
-                        .container-fluid#c19
-                            p#p13 „Vor zwei Wochen wurde ich entlassen. Da ich keine Optionen mehr hatte, dachte ich, mein Leben sei vorbei. Jetzt verdiene ich jeden Tag über 1.261,42 EUR. Und zum ersten Mal seit 2 Monaten ist mein Konto nicht überzogen. Danke, Bitcoin World!"
-                    .col-12    
-                        img.img3(
-                                    src='/images/bild3.jpg'
-                                    class='align-top'
-                                )
-                        .container-fluid#c13
-                            p#p10 Maximilian F.
-                            p#p11 Finanzwissenschaftler
-                            p#p12 Gewinn: 10.479€
-                        .container-fluid#c17
-                        .container-fluid#c14
-                            p#p13 „Überraschenderweise war ich früher ein Investor an der Wall Street. Und so etwas habe ich in meiner 10-jährigen Amtszeit noch nie gesehen. Alle meine Kollegen hielten mich für verrückt, als ich die Firma verließ, um ganztägig in die Bitcoin World-Software zu investieren."
-                    .col-12
-                        img.img3(
-                                    src='/images/bild5.jpg'
-                                    class='align-top'
-                                )
-                        .container-fluid#c20
-                            p#p10 Lena W.
-                            p#p11 Studentin
-                            p#p12 Gewinn: 7.254€
-                        .container-fluid#c21
-                        .container-fluid#c22
-                            p#p13 „Ich bin erst 47 Tage Mitglied von Bitcoin World. Aber mein Leben hat sich schon verändert! Ich habe nicht nur meine ersten 10.000 Euro verdient, sondern auch einige der unglaublichsten Leute getroffen. Danke, Bitcoin World!"
-    .text-center#c23
-        .row
-            .col-12
-                img.img4(
-                        src='/images/target.svg'
-                        class='align-top'
-                    )
-                p#p14 LASER-PRÄZISE PERFORMANE
-                p#p15 Es gibt keine andere Trading-App auf der Welt, die eine Genauigkeit von 99,4% aufweist, welche The Bitcoin World erreicht. Deshalb vertrauen unsere Mitglieder aus der ganzen Welt darauf, dass wir ihr hart verdientes Geld verdoppeln, verdreifachen und vervierfachen.
-            .col-12
-                img.img4(
-                        src='/images/startup.svg'
-                        class='align-top'
-                    )
-                p#p14 ÜBERLEGENE TECHNOLOGIE
-                p#p15 Die Bitcoin World-Software wurde mit der fortschrittlichsten Programmierung erstellt, die die Handelswelt jemals gesehen hat. Die Software ist den Märkten um 0,01 Sekunden voraus. Dieser "Zeitsprung" macht die Software zur beständigsten Trading-App der Welt.
-            .col-12
-                img.img4(
-                        src='/images/trophy.svg'
-                        class='align-top'
-                    )
-                p#p14 PREISGEKRÖNTE TRADING APP
-                p#p15 Die Bitcoin World App wurde mehrfach ausgezeichnet. Die jüngste Auszeichnung, die wir erhalten haben, ist die Nummer 1 in der Kategorie Handelssoftware für die US Trading Association.
-        button.btn.btn-lg#cta2 JETZT BEITRETEN
-    .text-center#c24
-    .text-center#c25
-        .row
-            .col-12
-                img.img4(
-                        src='/images/resume.svg'
-                        class='align-top'
-                    )
-                p#p16 REGISTRIEREN AUF DER SEITE
-                p#p17 Sobald Ihre Registrierung akzeptiert wurde, werden Sie automatisch das neueste Mitglied der Bitcoin World. Und Sie können unsere proprietäre Bitcoin-Handelssoftware kostenlos in Anspruch nehmen.
-            .col-12
-                img.img4(
-                        src='/images/piggy.svg'
-                        class='align-top'
-                    )
-                p#p16 AUF DEIN KONTO EINZAHLEN
-                p#p17 Wie in jedem Unternehmen benötigen Sie Betriebskapital, um loszulegen. Um von Bitcoin World zu profitieren, müssen Sie einen beliebigen Betrag von 250 EUR oder mehr investieren.
-            .col-12
-                img.img4(
-                        src='/images/money.svg'
-                        class='align-top'
-                    )
-                p#p16 FERTIG
-                p#p17 Klicken Sie auf Trading, um präzises und automatisches Handeln zu genießen, das von unserem preisgekrönten Algorithmus unterstützt wird. Sie können den Handel auch auf manuell einstellen, wenn Sie lieber alleine handeln möchten.
-        button.btn.btn-lg#cta3 KOSTENLOSEN ACCOUNT ÖFFNEN
-    .text-center#c26
-        p#p18 HÄUFIG GESTELLTE FRAGEN
-        .row
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Welche Ergebnisse kann ich erwarten?
-                    p#p20 Bitcoin World Mitglieder profitieren normalerweise von mindestens 1100 Euro pro Tag.
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Was ist der maximale Betrag, den ich verdienen kann?
-                    p#p20 Ihre Gewinne sind innerhalb der Bitcoin World unbegrenzt. Einige Mitglieder verdienten ihre erste Million innerhalb von nur 61 Tagen.
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Ist das wie MLM oder Affiliate Marketing?
-                    p#p20 Dies ist nicht wie MLM, Affiliate-Marketing oder irgendetwas anderes da draußen. Die Software gewinnt Trades mit einer Genauigkeit von 99,4%.
-        .row
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Wie viele Stunden pro Tag muss ich arbeiten?
-                    p#p20 Unsere Mitglieder arbeiten durchschnittlich 20 Minuten pro Tag oder weniger. Da die Software den Handel abwickelt, ist der Arbeitsaufwand minimal.
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Was kostet die Software?
-                    p#p20 Mitglieder des Bitcoin Circuit erhalten kostenlos eine Kopie unserer proprietären Software. Um Mitglied zu werden, füllen Sie einfach das Formular auf dieser Seite aus.
-            .col-12
-                .text-center.shadow-lg.p-3.mb-5.rounded#c27
-                    p#p19 Gibt es Gebühren?
-                    p#p20 Es gibt keine versteckten Gebühren. Keine Maklergebühren oder Provisionen. Ihr gesamtes Geld gehört zu 100% Ihnen und Sie können es jederzeit ohne Verzögerung abheben.
-    .text-center#c28
-        .text-center.shadow-lg.p-3.mb-5.rounded#c29
-            form(action="#")
-                .form-group
+                .text-center.shadow-lg.p-3.mb-5.rounded#c4
+                    p#p4 ÄNDER DEIN LEBEN HEUTE!
+                    form(action="#")
+                    .form-group
                     input#i1(
                         type='text'
                         class='form-control'
@@ -272,33 +66,445 @@ html
                         type='submit'
                         class='btn btn-primary btn-lg btn-block'
                     ) JETZT ANFANGEN
-                p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
-    .text-center#c30
-        .row
-          .col
-            img.img2(
-                src='/images/mcafee.png'
-                class='align-top'
-            )
-          .col
-            img.img2(
-            src='/images/versign.png'
-            class='align-top'
-            )
-          .col
-            img.img2(
-            src='/images/symantec.png'
-            class='align-top'
-            )
-        .row#row1
-          .col
-            img.img2(
-                src='/images/geotrust.png'
-                class='align-top'
-            )
-          .col
-            img.img2(
-            src='/images/ssl.png'
-            class='align-top'
-            )
-        p#p21 #[span#s20 WICHTIGER RISIKO HINWEIS:] Der Handel mit Devisen und CFDs birgt aufgrund der Hebelwirkung des Handels ein hohes Verlustrisiko, das zum Totalverlust Ihres Kapitals führen kann und möglicherweise nicht für alle Arten von Anlegern geeignet ist. Bitte lesen Sie unsere vollständige Risikowarnung und den entsprechenden Broker, bei dem Sie registriert sind, um sicherzustellen, dass Sie die damit verbundenen Risiken verstehen, bevor Sie fortfahren, und berücksichtigen Sie dabei Ihre relevanten Erfahrungen. Lassen Sie sich bei Bedarf von einem unabhängigen Berater beraten. Die auf dieser Website und in den Offenlegungsdokumenten enthaltenen Informationen sind nur allgemeiner Natur und berücksichtigen nicht Ihre persönlichen Umstände, Ihre finanzielle Situation oder Ihre Bedürfnisse. Sie sollten die Brokerage-Kundenvereinbarung sorgfältig prüfen und unabhängigen Rat einholen, bevor Sie entscheiden, ob der Handel mit solchen Produkten für Sie geeignet ist.
+                    p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
+            .container-fluid#c5
+                .row#reihe5
+                    .col#col12
+                        img.img2(
+                            src='/images/bitgo.jpg'
+                            class='align-top'
+                        )
+                    .col#col12
+                        img.img2(
+                        src='/images/norton.jpg'
+                        class='align-top'
+                        )
+                    .col#col12
+                        img.img2(
+                        src='/images/secure-trading.jpg'
+                        class='align-top'
+                        )
+                    .col#col12
+                        img.img2(
+                            src='/images/mcafee.jpg'
+                            class='align-top'
+                        )
+                .row#row1
+                    .col
+                        span#s3 BID 
+                        span#s4 10001€
+                    .col
+                        span#s3 ASK 
+                        span#s5 10002€
+        .text-center#c6
+            .text-center#c66
+                p#p6 Mitmachen und durch Bitcoin World reich werden!
+                p#p7 Die Bitcoin World ist eine Gruppe, die ausschließlich Personen vorbehalten ist, die auf die wahnsinnigen Renditen von Bitcoin gesetzt haben und dabei stillschweigend ein Vermögen angehäuft haben. Unsere Mitglieder genießen jeden Monat Einkünfte auf der ganzen Welt, während sie mit nur wenigen Minuten „Arbeit“ pro Tag Geld auf ihrem Laptop verdienen.
+                p#p8 WIE GESEHEN AUF:
+                .container-fluid#c7
+                    .row
+                        .col
+                            img.img2(
+                                src='/images/cnn.png'
+                                class='align-top'
+                            )
+                        .col
+                            img.img2(
+                            src='/images/forbes.png'
+                            class='align-top'
+                            )
+                        .col
+                            img.img2(
+                            src='/images/ft.png'
+                            class='align-top'
+                            )
+        .text-center#c8
+            p#p9 ECHTE ERGEBNISSE UNSERER BENUTZER
+        .text-center#c9
+                .container-fluid#c10
+                    img.img3(
+                                src='/images/bild2cut.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c11
+                        p#p10 Christopher B.
+                        p#p11 Handwerker
+                        p#p12 Gewinn: 9.730€
+                    .container-fluid#c111
+                    .container-fluid#c16
+                    .container-fluid#c12
+                        p#p13 „Ich weiß endlich, wie es ist, den Traum zu leben. Ich habe nicht mehr das Gefühl, draußen zu sein und nach innen zu schauen, während alle anderen den ganzen Spaß haben. Mit Bitcoin World konnte ich mich frühzeitig zurückziehen und den 1% -Lebensstil leben."
+                .container-fluid#c10
+                    img.img3(
+                                src='/images/bild4.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c15
+                        p#p10 Ben N.
+                        p#p11 Graffitikünstler
+                        p#p12 Gewinn: 3.639€
+                    .container-fluid#c112
+                    .container-fluid#c18
+                    .container-fluid#c19
+                        p#p13 „Vor zwei Wochen wurde ich entlassen. Da ich keine Optionen mehr hatte, dachte ich, mein Leben sei vorbei. Jetzt verdiene ich jeden Tag über 1.261,42 EUR. Und zum ersten Mal seit 2 Monaten ist mein Konto nicht überzogen. Danke, Bitcoin World!"
+                .container-fluid#c10   
+                    img.img3(
+                                src='/images/bild3.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c13
+                        p#p10 Maximilian F.
+                        p#p11 Finanzwissenschaftler
+                        p#p12 Gewinn: 10.479€
+                    .container-fluid#c113
+                    .container-fluid#c17
+                    .container-fluid#c14
+                        p#p13 „Überraschenderweise war ich früher ein Investor an der Wall Street. Und so etwas habe ich in meiner 10-jährigen Amtszeit noch nie gesehen. Alle meine Kollegen hielten mich für verrückt, als ich die Firma verließ, um ganztägig in die Bitcoin World-Software zu investieren."
+                .container-fluid#c10
+                    img.img3(
+                                src='/images/bild5.jpg'
+                                class='align-top'
+                            )
+                    .container-fluid#c20
+                        p#p10 Lena W.
+                        p#p11 Studentin
+                        p#p12 Gewinn: 7.254€
+                    .container-fluid#c114
+                    .container-fluid#c21
+                    .container-fluid#c22
+                        p#p13 „Ich bin erst 47 Tage Mitglied von Bitcoin World. Aber mein Leben hat sich schon verändert! Ich habe nicht nur meine ersten 10.000 Euro verdient, sondern auch einige der unglaublichsten Leute getroffen. Danke, Bitcoin World!"
+        .text-center#c23
+            .text-center#c233
+                .text-center#c234
+                    img.img4(
+                            src='/images/target.svg'
+                            class='align-top'
+                        )
+                    p#p14 LASER-PRÄZISE PERFORMANCE
+                    p#p15 Es gibt keine andere Trading-App auf der Welt, die eine Genauigkeit von 99,4% aufweist, welche The Bitcoin World erreicht. Deshalb vertrauen unsere Mitglieder aus der ganzen Welt darauf, dass wir ihr hart verdientes Geld verdoppeln, verdreifachen und vervierfachen.
+                .text-center#c234
+                    img.img4(
+                            src='/images/startup.svg'
+                            class='align-top'
+                        )
+                    p#p14 ÜBERLEGENE TECHNOLOGIE
+                    p#p15 Die Bitcoin World-Software wurde mit der fortschrittlichsten Programmierung erstellt, die die Handelswelt jemals gesehen hat. Die Software ist den Märkten um 0,01 Sekunden voraus. Dieser "Zeitsprung" macht die Software zur beständigsten Trading-App der Welt.
+                .text-center#c234
+                    img.img4(
+                            src='/images/trophy.svg'
+                            class='align-top'
+                        )
+                    p#p14 PREISGEKRÖNTE TRADING APP
+                    p#p15 Die Bitcoin World App wurde mehrfach ausgezeichnet. Die jüngste Auszeichnung, die wir erhalten haben, ist die Nummer 1 in der Kategorie Handelssoftware für die US Trading Association.
+        .text-center
+            button.btn.btn-lg#cta2 JETZT BEITRETEN
+        .text-center#c25
+            .text-center#c255
+                p#p16 WIE ES GEHT
+                .text-center#c256
+                    img.img6(
+                            src='/images/resume2.svg'
+                            class='rounded-circle'
+                        )
+                    img.img7(
+                            src='/images/arrow2.png'
+                            class='align-top'
+                        )
+                    p#p16 AUF DER SEITE ANMELDEN
+                    p#p17 Sobald Ihre Registrierung akzeptiert wurde, werden Sie automatisch das neueste Mitglied der Bitcoin World. Und Sie können unsere proprietäre Bitcoin-Handelssoftware kostenlos in Anspruch nehmen.
+                    img.img5(
+                            src='/images/arrow.png'
+                            class='align-top'
+                        )
+                .text-center#c256
+                    img.img6(
+                            src='/images/piggy2.svg'
+                            class='rounded-circle'
+                        )
+                    img.img7(
+                            src='/images/arrow2.png'
+                            class='align-top'
+                        )
+                    p#p16 AUF DEIN KONTO EINZAHLEN
+                    p#p17 Wie in jedem Unternehmen benötigen Sie Betriebskapital, um loszulegen. Um von Bitcoin World zu profitieren, müssen Sie einen beliebigen Betrag von 250 EUR oder mehr investieren.
+                    img.img5(
+                            src='/images/arrow.png'
+                            class='align-top'
+                        )
+                .text-center#c256
+                    img.img6(
+                            src='/images/money2.svg'
+                            class='rounded-circle'
+                        )
+                    p#p16 FERTIG
+                    p#p17 Klicken Sie auf Trading, um präzises und automatisches Handeln zu genießen, das von unserem preisgekrönten Algorithmus unterstützt wird. Sie können den Handel auch auf manuell einstellen, wenn Sie lieber alleine handeln möchten.
+        .text-center
+            button.btn.btn-lg#cta3 KOSTENLOSEN ACCOUNT ÖFFNEN
+        .text-center#c26
+            .text-center#c266
+                p#p18 HÄUFIG GESTELLTE FRAGEN
+                .text-center#c269
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Welche Ergebnisse kann ich erwarten?
+                        p#p20 Bitcoin World Mitglieder profitieren normalerweise von mindestens 1100 Euro pro Tag.
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Was ist der maximale Betrag, den ich verdienen kann?
+                        p#p20 Ihre Gewinne sind innerhalb der Bitcoin World unbegrenzt. Einige Mitglieder verdienten ihre erste Million innerhalb von nur 61 Tagen.
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Ist das wie MLM oder Affiliate Marketing?
+                        p#p20 Dies ist nicht wie MLM, Affiliate-Marketing oder irgendetwas anderes da draußen. Die Software gewinnt Trades mit einer Genauigkeit von 99,4%.
+                .text-center#c269
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Wie viele Stunden pro Tag muss ich arbeiten?
+                        p#p20 Unsere Mitglieder arbeiten durchschnittlich 20 Minuten pro Tag oder weniger. Da die Software den Handel abwickelt, ist der Arbeitsaufwand minimal.
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Was kostet die Software?
+                        p#p20 Mitglieder des Bitcoin World erhalten kostenlos eine Kopie unserer proprietären Software. Um Mitglied zu werden, füllen Sie einfach das Formular auf dieser Seite aus.
+                    .text-center.shadow-lg.p-3.mb-5.rounded#c27
+                        p#p19 Gibt es Gebühren?
+                        p#p20 Es gibt keine versteckten Gebühren. Keine Maklergebühren oder Provisionen. Ihr gesamtes Geld gehört zu 100% Ihnen und Sie können es jederzeit ohne Verzögerung abheben.
+        .text-center#c28
+            .text-center.shadow-lg.p-3.mb-5.rounded#c29
+                form(action="#")
+                    .form-group
+                        input#i1(
+                            type='text'
+                            class='form-control'
+                            aria-describedby='Vorname'
+                            placeholder='Vorname'
+                        )
+                        input#i1(
+                            type='text'
+                            class='form-control'
+                            aria-describedby='Nachname'
+                            placeholder='Nachname'
+                        )
+                        input#i1(
+                            type='email'
+                            class='form-control'
+                            aria-describedby='Email'
+                            placeholder='Emailadresse'
+                        )
+                        input#i1(
+                            type='tel'
+                            class='form-control'
+                            aria-describedby='Nummer'
+                            placeholder='Telefonnummer'
+                        )
+                        button#b1(
+                            type='submit'
+                            class='btn btn-primary btn-lg btn-block'
+                        ) JETZT ANFANGEN
+                    p#p5 Durch Klicken auf Anfangen stimmen Sie unseren #[a#a1 Allgemeinen Geschäftsbedingungen] zu
+        .text-center#c30
+            .text-center#c33
+                .row#row3
+                    .col
+                        img.img2(
+                            src='/images/mcafee.png'
+                            class='align-top'
+                        )
+                    .col
+                        img.img2(
+                        src='/images/versign.png'
+                        class='align-top'
+                        )
+                    .col
+                        img.img2(
+                        src='/images/symantec.png'
+                        class='align-top'
+                        )
+                .row#row1
+                    .col
+                        img.img2(
+                            src='/images/geotrust.png'
+                            class='align-top'
+                        )
+                    .col
+                        img.img2(
+                        src='/images/ssl.png'
+                        class='align-top'
+                        )
+                p#p21 #[span#s20 WICHTIGER RISIKO HINWEIS:] Der Handel mit Devisen und CFDs birgt aufgrund der Hebelwirkung des Handels ein hohes Verlustrisiko, das zum Totalverlust Ihres Kapitals führen kann und möglicherweise nicht für alle Arten von Anlegern geeignet ist. Bitte lesen Sie unsere vollständige Risikowarnung und den entsprechenden Broker, bei dem Sie registriert sind, um sicherzustellen, dass Sie die damit verbundenen Risiken verstehen, bevor Sie fortfahren, und berücksichtigen Sie dabei Ihre relevanten Erfahrungen. Lassen Sie sich bei Bedarf von einem unabhängigen Berater beraten. Die auf dieser Website und in den Offenlegungsdokumenten enthaltenen Informationen sind nur allgemeiner Natur und berücksichtigen nicht Ihre persönlichen Umstände, Ihre finanzielle Situation oder Ihre Bedürfnisse. Sie sollten die Brokerage-Kundenvereinbarung sorgfältig prüfen und unabhängigen Rat einholen, bevor Sie entscheiden, ob der Handel mit solchen Produkten für Sie geeignet ist.
+        .text-center#c40
+            .text-center#c41
+                .a#f1 HAFTUNGSAUSSCHLUSS
+                .a#f2 BEDINGUNGEN
+                .a#f3 PRIVATSPHÄRE
+    .text-center#viewport
+        .text-center#bg
+        .text-center.rounded#wrapper
+            .text-center#c50
+                .text-center#c51
+                    img#logo(
+                        src='/images/bitcoin.png'
+                        class='align-top'
+                    )
+                    span#title1 Bitcoin 
+                    span#title2 World 
+                .text-center#p50 HAFTUNGSAUSSCHLUSS
+                img#p51(
+                        src='/images/close.png'
+                        class='align-top'
+                    )
+            p#p52 Vollständige Risikoerklärung
+            p#p53 INFORMATIONEN AUF DIESER WEBSITE:
+            p#p52 Das Verkaufsvideo "Bitcoin World" ist fiktiv und wurde produziert, um das Potenzial der Signalsoftware "Bitcoin World" von Drittanbietern darzustellen. Schauspieler wurden verwendet, um diese Gelegenheit zu präsentieren, und sie sollte nur zu Unterhaltungszwecken angesehen werden. Wir garantieren kein Einkommen oder Erfolg. Alle im Video und an anderer Stelle auf dieser Website gezeigten Einkommensergebnisse geben keinen Hinweis auf zukünftigen Erfolg oder Gewinn. 
+            p#p52 Informationen zu "Bitcoin World" sollten nicht als Empfehlung für den Handel mit CFD und Forex angesehen werden. "Bitcoin World" bietet Ihnen Links zu kostenloser CFD- und Forex-Handelssoftware, mit der Sie kostenlose Signale von Dritten empfangen können. "Bitcoin World" ist weder lizenziert noch autorisiert, Ratschläge zu Investitionen und verwandten Themen zu erteilen. Informationen auf der Website sind keine Anlageberatung und sollten auch nicht als solche angesehen werden. Kunden ohne ausreichende Kenntnisse sollten sich von einer autorisierten Quelle individuell beraten lassen. Der CFD- und Forex-Handel birgt erhebliche Risiken und es besteht die Möglichkeit, dass Kunden ihre Anlagen verlieren. Wir empfehlen Ihnen daher dringend, unsere und die vollständigen Geschäftsbedingungen Dritter zu lesen. Die Wertentwicklung in der Vergangenheit ist keine Garantie für zukünftige Renditen. Investieren Sie vor allem kein Geld, dessen Verlust Sie sich nicht leisten können. 
+            p#p52 Sie sind für jede Entscheidung verantwortlich, die Sie aufgrund der Informationen auf dieser Website treffen. "Bitcoin World" und seine Direktoren, Mitarbeiter oder Vertreter übernehmen keine Haftung für Verluste oder Schäden (einschließlich, ohne Einschränkung, besonderer, direkter, indirekter oder Folgeschäden oder sonstiger Verluste oder Schäden jeglicher Art), die sich aus oder im Zusammenhang damit ergeben zur Nutzung dieser Website, Software oder ihrer Inhalte. 
+            p#p52 Sie dürfen am CFD- und Forex-Handel nur teilnehmen, wenn Sie volljährig sind und wenn dies in der Gerichtsbarkeit, von der aus Sie auf die Handelsplattform zugreifen, gesetzlich zulässig ist. Es liegt in Ihrer Verantwortung, Ihre lokalen Vorschriften zu überprüfen, bevor Sie online handeln. 
+            p#p53 COPYRIGHTS:
+            p#p52 Diese Website und die auf dieser Website angebotenen Produkte und Dienstleistungen sind weder mit einer auf dieser Website gezeigten Marke verbunden, verbunden, unterstützt oder gesponsert, noch wurden sie von einer dieser Marken geprüft oder zertifiziert. Alle angezeigten Marken, Logos und Dienstleistungsmarken sind eingetragene und / oder nicht eingetragene Marken ihrer jeweiligen Eigentümer. 
+            p#p53 HYPERLINKS UND DRITTPARTEIEN: 
+            p#p52 "Bitcoin World" hat keine Informationen auf anderen Websites, auf die Sie über einen Hyperlink von dieser Website aus zugreifen, oder für Informationen auf anderen Websites, von denen Sie auf diese Website gelangt sind, überprüft und übernimmt keine Verantwortung dafür. "Bitcoin World" übernimmt keine Haftung für Verluste oder Schäden (einschließlich, ohne Einschränkung, besonderer, direkter, indirekter oder Folgeschäden oder sonstiger Verluste oder Schäden jeglicher Art), die sich aus dem Zugang zu oder der Verwendung von solchen ergeben Website, die durch einen Hyperlink zu dieser Website oder auf dieser Website enthaltenen Informationen verlinkt ist. 
+            p#p53 RISIKEN IM HANDEL ÜBER DAS INTERNET:
+            p#p52 Ein CFD-Handel (Contract for Difference) umfasst viele Arten von Kontrakten, die eine Vielzahl von Märkten abdecken, darunter Aktien, Indizes, Rohstoffe und Staatsanleihen.
+            p#p52 Forex ist ein dezentraler globaler Markt, auf dem die Währungen der Welt ausgetauscht werden. 
+            p#p52 CFD-Handel und Forex sind spekulativ, mit einem hohen Risiko verbunden und können zum Verlust Ihrer gesamten Investition führen. Daher ist der Handel mit CFD und Forex nur für Personen geeignet, die die mit solchen Transaktionen verbundenen wirtschaftlichen, rechtlichen und sonstigen Risiken verstehen und bereit sind, diese zu übernehmen.
+            p#p52 Sie sollten sich davon überzeugen, dass der CFD- und Forex-Handel angesichts Ihrer finanziellen Umstände und Ihrer Einstellung zum Risiko für Sie geeignet ist. Sie sollten keinen spekulativen CFD- und Forex-Handel betreiben, es sei denn, Sie verstehen die grundlegenden Aspekte dieses Handels und seine Risiken. Wenn Sie Zweifel haben, ob der CFD- und Forex-Handel für Sie geeignet ist, wenden Sie sich bitte an einen unabhängigen Finanzberater, da "Bitcoin World" diese Beratung nicht anbietet. 
+            p#p52 Es liegt in der Verantwortung des Kunden, unter Berücksichtigung seiner persönlichen Umstände und finanziellen Ressourcen besondere Sorgfalt walten zu lassen und unabhängig voneinander sorgfältige Überlegungen anzustellen, bevor er sich für den Forex- und CFD-Handel mit "Bitcoin World" und unseren ausgewählten Brokern bewirbt und bevor er eine Einzelperson macht Auftrag.
+            p#p52 Wenn der Kunde die Risiken bei der Beantragung eines Handelskontos bei der Gesellschaft oder bei der Bestellung nicht versteht, sollte er sich von einem unabhängigen Finanzberater beraten lassen. Wenn der Kunde die mit dem Handel mit CFDs und Forex verbundenen Risiken weiterhin nicht versteht, sollte er überhaupt nicht handeln.
+            p#p52 Sie werden darauf hingewiesen, dass die von unseren ausgewählten Brokern angebotenen CFDs und Forex nicht immer nach den Regeln einer anerkannten, designierten oder regulierten Börse gehandelt werden.
+            p#p52 Folglich können Sie durch den Handel mit CFD und Forex wesentlich größeren Risiken ausgesetzt sein als Anlagen, die auf diese Weise gehandelt werden. 
+            p#p52 Der Kunde muss anerkennen, dass das Eingehen von CFD und Forex ein großes Risiko für Verluste darstellt, und der Kunde muss akzeptieren, dass er bereit ist, dieses Risiko einzugehen. 
+            p#p53 RECHTLICHE BESCHRÄNKUNGEN
+            p#p52 Die Gesetze zum Finanzhandel und zu Kontrakten können weltweit unterschiedlich sein. Es ist die Pflicht des Lesers, sicherzustellen, dass die Verwendung von "Bitcoin World" in vollem Umfang mit den in seinem Wohnsitzland geltenden Gesetzen, Vorschriften oder Richtlinien übereinstimmt.
+            p#p52 Die Möglichkeit, über einen Link auf "Bitcoin World" oder eine verwandte Website zuzugreifen, bedeutet nicht, dass unsere Dienste oder damit verbundene Aktivitäten nach den Gesetzen Ihres Wohnsitzlandes legal sind. Diese Dienste und die unserer verbundenen Unternehmen sollten von niemandem in einem Land genutzt werden, in dem diese Dienste nicht autorisiert oder rechtswidrig sind. Alle Benutzer sind verpflichtet und verantwortlich, die Handelsbestimmungen für CFD- und Forex-Broker in ihren jeweiligen Ländern zu überprüfen, bevor sie ein Konto bei einem auf unserer Website angebotenen Broker eröffnen oder bevor sie die Bitcoin World-Dienste nutzen.
+            p#p52 Wenn Sie aus den USA kommen, ist es sehr wichtig zu beachten, dass einige der CFD- und Forex-Broker und -Dienstleister nicht in den USA reguliert sind. Sie sind mit keiner der Aufsichtsbehörden verbunden, verbunden oder beaufsichtigt - der Commodity Futures Trading Commission (CFTC), der National Futures Association (NFA), der Securities and Exchange Commission (SEC) oder der Financial Industry Regulatory Authority (FINRA).
+            p#p53 BEKANNTMACHUNG
+            p#p52 Als Besucher dieser Website wird davon ausgegangen, dass Sie diese Offenlegungserklärung gelesen, verstanden und akzeptiert haben. Besucher dieser Website tun dies auf eigene Initiative und sind für die Einhaltung der einschlägigen örtlichen Gesetze verantwortlich.
+            p#p52 Dieses Produkt garantiert kein Einkommen oder Erfolg, und Beispiele für die Ergebnisse des Produktbesitzers und anderer Personen geben keinen Hinweis auf zukünftigen Erfolg oder Gewinn.
+            p#p52 Copyright © 2020 "Bitcoin World"
+            .text-center#c52
+                button.btn.btn-outline-secondary#b51 Schließen
+    .text-center#viewport2
+        .text-center#bg
+        .text-center.rounded#wrapper
+            .text-center#c50
+                .text-center#c51
+                    img#logo(
+                        src='/images/bitcoin.png'
+                        class='align-top'
+                    )
+                    span#title1 Bitcoin 
+                    span#title2 World 
+                .text-center#p50 BEDINGUNGEN
+                img#p512(
+                        src='/images/close.png'
+                        class='align-top'
+                    )
+            p#p53 HINWEIS ZUR ÜBERSETZUNG
+            p#p52 Diese Nutzungsbedingungen der Website wurden möglicherweise zur Erleichterung der Benutzer von "Bitcoin World" in verschiedene Sprachen übersetzt. Während die Übersetzung nach bestem Wissen von "Bitcoin World" korrekt ist, ist "Bitcoin World" im Falle einer Ungenauigkeit nicht verantwortlich oder haftbar. Deeutsch ist die maßgebliche Sprache dieser Nutzungsbedingungen, und jede Übersetzung wurde nur mit freundlicher Genehmigung für Sie erstellt. Im Falle eines Konflikts zwischen der deutschsprachigen Version dieser Nutzungsbedingungen und einer Version, die in eine andere Sprache übersetzt wurde, gilt die deutschsprachige Version.
+            p#p53 WICHTIG
+            p#p52 Diese Allgemeinen Geschäftsbedingungen stellen eine rechtliche Vereinbarung ("Vereinbarung") zwischen Ihnen, dem Benutzer (im Folgenden "Sie", "Ihr" oder der "Benutzer") und uns, "Bitcoin World", seinen verbundenen Unternehmen und allen ihren Mitarbeitern dar jeweilige bevollmächtigte Vertreter, leitende Angestellte, Direktoren, Mitarbeiter, Vertreter, Aktionäre, Lizenzgeber, Anwälte, Nachfolger und Beauftragte (im Folgenden "Wir" oder "Bitcoin World") sowie zusammen mit der Website-Datenschutzrichtlinie, der Eula-Vereinbarung und dem Risiko-Haftungsausschluss vollständig und vollständig regeln ausschließlich solche Beziehungen.
+            p#p52 Bitte beachten Sie, dass unsere Allgemeinen Geschäftsbedingungen jederzeit nach unserem alleinigen Ermessen ohne Benachrichtigung des Benutzers geändert werden können. Sie erklären sich damit einverstanden, die Vereinbarung regelmäßig zu überprüfen, um Kenntnis von solchen Änderungen zu erhalten, und Ihr fortgesetzter Zugriff oder Ihre fortgesetzte Nutzung der Website gilt als Ihre endgültige Annahme der geänderten Vereinbarung. Alle an diesen Bedingungen vorgenommenen Änderungen werden wirksam, wenn sie auf der Website "Bitcoin World" unter https://thebitcoinWorld.com veröffentlicht werden
+            p#p52 Bevor Sie auf die auf der Website angebotenen Dienste zugreifen oder diese nutzen, lesen Sie bitte die folgenden Bedingungen und Dienste auf dieser Website sorgfältig durch. Diese Bedingungen regeln Ihren Zugriff auf und Ihre Nutzung der Website sowie aller Videos, Software, Programme, Gewinnspiele, Dienste, Tools, Materialien oder sonstigen Informationen, die über die Website verfügbar sind oder in Verbindung damit verwendet werden (zusammen der "Dienst"). "Bitcoin World" ist bereit, die Nutzung dieser Website und / oder des Dienstes nur unter der Bedingung zu lizenzieren und zuzulassen, dass Sie alle darin enthaltenen Bedingungen akzeptieren und ihnen zustimmen. Durch die Nutzung der Website erklären Sie sich daher damit einverstanden, an die unten aufgeführten Bedingungen gebunden zu sein. Wenn Sie nicht an diese Allgemeinen Geschäftsbedingungen gebunden sein möchten, erhalten Sie keine Erlaubnis, auf die Website zuzugreifen oder diese anderweitig zu nutzen, und Sie werden angewiesen, die Website sofort zu verlassen.
+            p#p53 DER SERVICE
+            p#p52 Die Website ist ein Online-Informationsdienst mit herunterladbarer und webbasierter Software "Bitcoin World" ("Software") und unterliegt den unten aufgeführten Bedingungen und der Endbenutzer-Lizenzvereinbarung.
+            p#p53 DIE VIDEOS
+            p#p52 Die auf der Website angezeigten Videos werden nur zu Informations- und Werbezwecken bereitgestellt und sollten bei Entscheidungen nicht als Grundlage dienen. Sie dienen nur zur Simulation unter Verwendung von Akteuren und Demokonten. Diese Videos wurden erstellt, um Ihnen ein Gefühl dafür zu vermitteln, was durch den Gewinn einer Auszeichnung bei Verwendung der Software erreicht werden kann. Die Videos sind möglicherweise nicht genau und basieren nicht auf genauen vergangenen wahren Ereignissen und dienen nur zu Simulationszwecken. Nichtsdestotrotz stellen alle Informationen, die aus diesen Videos entweder visuell, mündlich oder schriftlich wahrgenommen werden, keine finanzielle, rechtliche, steuerliche oder sonstige professionelle Beratung dar und sind nicht als Ersatz für die Konsultation eines qualifizierten Fachmanns gedacht. "Bitcoin World" hat sich nach besten Kräften um die Erstellung dieser Videos bemüht, "Bitcoin World" übernimmt jedoch keine Gewähr oder Garantie in Bezug auf die Richtigkeit, Anwendbarkeit, Eignung oder Vollständigkeit der Inhalte dieser Videos. Die in diesen Videos enthaltenen Informationen dienen ausschließlich Informations- und Werbezwecken. Wenn Sie die Software anwenden und verwenden möchten, übernehmen Sie daher die volle Verantwortung für Ihre Handlungen. Keine Aussage in diesen Videos ist als Anlageberatung oder als Empfehlung, Aufforderung oder Angebot zum Kauf oder Verkauf von Wertpapieren und / oder Finanzinstrumenten zu verstehen. Es wird keine Zusicherung gemacht, dass ein Benutzer Gewinne oder Verluste erzielen wird oder wahrscheinlich erzielen wird, die den in den Videos diskutierten und erwähnten ähnlich sind. Die Wertentwicklung eines Handelssystems in der Vergangenheit, einschließlich der Software oder Methodik, ist nicht unbedingt ein Hinweis auf zukünftige Ergebnisse. Wenden Sie sich unbedingt an Ihren Finanzberater, bevor Sie jemals ein Finanzinstrument anlegen oder handeln.
+            p#p52 "Bitcoin World" haftet in keinem Fall gegenüber einer Partei für direkte, indirekte, implizite, strafende, besondere, zufällige oder andere Folgeschäden, die direkt oder indirekt aus der Verwendung dieses Materials entstehen, das so wie es ist und ohne es bereitgestellt wird Garantien. Wie in allen Fällen sollten Zuschauer niemals Informationen, die aus diesen oder anderen Videos wahrgenommen werden, zum Nennwert nehmen und stets ihre eigene Sorgfalt auf das angesehene Material anwenden, um sich eine eigene Meinung und ein bestes Urteil zu bilden. Gegebenenfalls sollte immer der Rat eines zuständigen Rechts-, Steuer-, Buchhaltungs- oder anderen Fachmanns eingeholt werden, bevor Maßnahmen jeglicher Art ergriffen werden.
+            p#p52 Die Videos sind durch "Bitcoin World" urheberrechtlich geschützt und dürfen ohne ausdrückliche Genehmigung von "Bitcoin World" in keinem Format kopiert, gespeichert oder geändert, verkauft oder in irgendeiner Weise verwendet oder auf irgendeine Weise verbreitet oder gesendet werden.
+            p#p53 WIR BEHALTEN UNS DAS RECHT VOR
+            p#p52 "Bitcoin World" behält sich das Recht vor, Dienste nach eigenem Ermessen und ohne vorherige Ankündigung auszusetzen, zu ändern, zu entfernen und / oder hinzuzufügen. Im Falle einer solchen Aussetzung, Änderung, Entfernung oder Hinzufügung eines Dienstes aus irgendeinem Grund haftet das Unternehmen Ihnen gegenüber in keiner Weise.
+            p#p54 1. Haftungsausschluss für Einkommen.
+            p#p52 Es kann keine Zusicherung gegeben werden, dass frühere Erfolge oder vergangene Ergebnisse (in echten oder Simulationen unter Verwendung von Demo-Konten) hinsichtlich des Einkommens oder des prozentualen Gewinns als Indikator für Ihren zukünftigen Erfolg oder Ihre zukünftigen Ergebnisse verwendet werden können. Die Handelsleistung (Geld- und Einkommensergebnisse) basiert auf vielen perosnalen Faktoren. Sie können und sollten davon ausgehen, dass Sie wahrscheinlich den Geldhandel verlieren werden. Daher garantieren oder implizieren wir nicht, dass Sie ein erfolgreicher, profitabler Händler sind oder überhaupt Geld in Ihrem Handel verdienen, indem Sie unseren Service nutzen.
+            p#p52 Es gibt keine Zusicherung, dass Sie dies genauso tun werden wie unsere "Bitcoin World". Wenn Sie sich auf unsere Zahlen verlassen, wie sie in den Videos dargestellt sind, akzeptieren Sie das Risiko, nicht so gut zu handeln oder sogar das Handelskapital zu verlieren.
+            p#p52 UNSERE SOFTWARE UND / ODER DIENSTLEISTUNGEN KÖNNEN UNBEKANNTE RISIKEN HABEN UND SIND NICHT FÜR JEDEN GEEIGNET. ENTSCHEIDUNGEN AUF DER GRUNDLAGE VON IN UNSEREN VIDEOS, SERVICE ODER WEBSITE DARGESTELLTEN INFORMATIONEN SOLLTEN NUR MIT DEM WISSEN GEMACHT WERDEN, DASS SIE WESENTLICHE VERLUSTE ERFAHREN ODER KEIN GELD VERDIENEN KÖNNEN.
+            p#p52 SIE STIMMEN ZU, DASS WIR NICHT FÜR DEN ERFOLG ODER DEN AUSFALL IHRER FINANZIELLE ENTSCHEIDUNGEN IN BEZUG AUF INFORMATIONEN VON UNS ODER UNSEREM DIENST VERANTWORTLICH SIND.
+            p#p54 2. Eigentumsrechte.
+            p#p52 Jegliches geistige Eigentum an oder im Zusammenhang mit der Website und dem Service, einschließlich, aber nicht beschränkt auf Inhalte, Informationen, Videos, Patente, Marken, Urheberrechte, Module, Techniken, Know-how, Computercode (einschließlich HTML-Code), Algorithmen, Methoden von Geschäfte machen, Benutzeroberflächen, Grafikdesign, Look and Feel und Software; und alle Entwicklungen, Derivate und Verbesserungen daran, ob registriert oder nicht (zusammen "geistiges Eigentum"), sind, sofern nicht anders angegeben, Eigentum, kontrolliert und lizenziert in ihrer Gesamtheit von "Bitcoin World", seinen verbundenen Unternehmen, seinen Nachfolgern und Beauftragten. und / oder von Dritten, die die Bitcoin World-Lizenz zur Nutzung dieses geistigen Eigentums erteilt haben. Dies umfasst, ohne darauf beschränkt zu sein, alles Material, das auf der Website zu finden ist, einschließlich, aber nicht beschränkt auf Bilder, Bilder, Grafiken, Fotos, Animationen, Videos, Musik, Audio und Text.
+            p#p52 Inhalte, Software oder Dienste, auf die hier oder auf der Website verwiesen wird, sind die exklusiven Marken oder Dienstleistungsmarken von "Bitcoin World" oder ihren jeweiligen Eigentümern und sind gesetzlich geschützt. Sofern hierin nicht ausdrücklich vorgesehen, gewährt "Bitcoin World" weder Ihnen noch einer anderen Person ein ausdrückliches oder stillschweigendes Recht an geistigen oder Eigentumsrechten. Die auf der Website verfügbare Software, Programme, Informationen, Videos oder Materialien sowie alle damit verbundenen Urheberrechte, Geschäftsgeheimnisse und das Know-how sind, sofern nicht anders angegeben, Eigentum von "Bitcoin World" oder Drittlizenzgebern. Der Name der Website, sein Logo und alle anderen Namen, Logos und Symbole, die die "Bitcoin World"-Website und ihren Service kennzeichnen, sind Marken des Unternehmens und jede Verwendung solcher Marken, wie z. B. Domain-Namen, ohne die ausdrückliche schriftliche Genehmigung von "Bitcoin World" ist strengstens verboten.
+            p#p54 3. Begrenzte Lizenzgewährung.
+            p#p52 Die Website wird von "Bitcoin World" bereitgestellt und unter der Bedingung, dass diese Nutzungsbedingungen der Website akzeptiert werden, bietet Ihnen eine persönliche, widerrufliche, beschränkte, nicht exklusive, lizenzgebührenfreie, nicht übertragbare Lizenz zur Nutzung der Website und Laden Sie die Software, alle Programme, Dienste, Tools, Materialien, Videos oder Informationen herunter, die über oder von der Website verfügbar gemacht werden. Die Nutzungsbedingungen der Website gestatten Ihnen, nur die Website "Bitcoin World" (a) auf einem einzelnen Laptop, einer Workstation oder einem Computer und (b) auf einem mobilen Gerät über das Internet oder online für den persönlichen Gebrauch zu verwenden und darauf zuzugreifen Netzwerk. Sie können Informationen von der Website auch in den temporären Speicher (RAM) Ihres Laptops, Ihrer Workstation oder Ihres Computers herunterladen und Materialien und Informationen von der Website ausschließlich für Ihren persönlichen, nicht kommerziellen Gebrauch drucken und herunterladen, vorausgesetzt, alle Ausdrucke enthalten alle Urheberrechte und andere anwendbare Bestimmungen Hinweise.
+            p#p54 4. Lizenzbeschränkungen.
+            p#p52 Die vorstehende Lizenz ist begrenzt. SIE DÜRFEN KEINE ÄNDERUNGEN, KOPIEREN, SPEICHERN, REPRODUZIEREN, WIEDERVERÖFFENTLICHEN, HOCHLADEN, POSTEN, SENDEN, LIZENZEN, SUBLIZENZEN, ANZEIGEN, MIETEN, VERMIETEN, VERKAUFEN, KOMMERZIELL AUSBEUTEN ODER VERTEILEN "Bitcoin World" DURCH DIE WEBSITE, AUF KEINE WEISE, DIE VON DIESEN DIENSTBEDINGUNGEN NICHT AUSDRÜCKLICH ERLAUBT WIRD. Die oben genannte Einschränkung beinhaltet, ist jedoch nicht auf Videos, Texte, Grafiken, Codes und / oder Software beschränkt. Darüber hinaus dürfen Sie keine proprietären Hinweise oder Labels modifizieren, übersetzen, dekompilieren, abgeleitete Werke erstellen, disassemblieren, senden, veröffentlichen, entfernen oder ändern, kein Sicherheitsinteresse an der Website gewähren oder sie auf andere Weise nutzen hierin nicht ausdrücklich gestattet. Darüber hinaus dürfen Sie (i) keinen "Deep Link", "Page Scrape", "Roboter", "Spider" oder ein anderes automatisches Gerät, Programm, Skript, Algorithmus oder eine Methode oder einen ähnlichen oder gleichwertigen manuellen Prozess verwenden auf einen Teil der Website zugreifen, diesen erwerben, kopieren oder überwachen oder in irgendeiner Weise die Navigationsstruktur oder Präsentation der Website reproduzieren oder umgehen, um Materialien, Dokumente oder Informationen auf irgendeine Weise zu erhalten oder zu versuchen, die nicht absichtlich über die Website verfügbar gemacht wurde Website ODER (ii) versuchen, unbefugten Zugriff auf Teile oder Funktionen der Website zu erlangen, einschließlich, ohne Einschränkung, des Kontos eines Benutzers, anderer Systeme oder Netzwerke, die mit der Website oder ihren Servern verbunden sind, auf eines von der auf oder über die Website angebotene Service durch Hacking, Passwort-Mining oder andere illegitime oder verbotene Mittel ODER (iii) die Schwachstelle der Website oder eines mit der Website verbundenen Netzwerks zu prüfen, zu scannen oder zu testen oder gegen die zu verstoßen Sicherheits- oder Authentifizierungsmaßnahmen auf der Website oder einem mit der Website verbundenen Netzwerk ODER (iv) Informationen über einen Benutzer oder Besucher der "Bitcoin World"-Website rückgängig zu machen, zu verfolgen oder zu verfolgen, ODER (v) Maßnahmen zu ergreifen, die die Infrastruktur der Website, des Systems, der Netzwerke oder der damit verbundenen Systeme oder Netzwerke unangemessen oder unverhältnismäßig stark belastet oder (vi) Geräte, Software oder Routinen verwendet, um das ordnungsgemäße Funktionieren der Website oder Transaktion zu beeinträchtigen auf der Website oder bei Nutzung der Website durch eine andere Person durchgeführt werden ODER (vii) Header fälschen, sich als Person ausgeben oder Identifikatoren auf andere Weise manipulieren, um Ihre Identität oder den Ursprung einer Nachricht oder Übermittlung zu verschleiern, die Sie an Bitcoin World senden 'auf oder über die Website, ODER (viii) verwenden Sie die Website, um E-Mail-Adressen oder andere Kontakt- oder persönliche Informationen zu sammeln, ODER (ix) Markt, Co-Branding, Handelsmarke, verwenden Sie den Namen' Bitcoin World 'oder a ähnlicher Name auf einer anderen Domain, separa ohne die ausdrückliche, separate und vorherige schriftliche Genehmigung von "Bitcoin World" oder (x) die Website auf andere rechtswidrige Weise zu vertreiben, weiterzuverkaufen oder anderweitig Dritten den Zugriff auf und die Nutzung der Website ganz oder teilweise zu gestatten oder auf eine Weise, die als schädlich, herabwürdigend oder auf andere Weise negativ für die "Bitcoin World" empfunden werden könnte.
+            p#p52 Darüber hinaus ist diese Lizenz nur gültig, wenn "Bitcoin World" nach dem gesetzlichen Status betrieben werden darf. Der Zugriff auf und die Nutzung dieser Website unter Verstoß gegen Gesetze oder Vorschriften oder wenn dies gesetzlich verboten ist, ist nicht autorisiert und von "Bitcoin World" nicht gestattet.
+            p#p54 5. Haftungsausschluss Dritter.
+            p#p52 Sie erkennen an, dass einige der Service- und / oder Softwarekomponenten möglicherweise von Dritten bereitgestellt werden und daher Latenz, Fehler, Fehlfunktionen, Datenverzögerungen usw. auftreten können, auf die "Bitcoin World" keinen Einfluss hat: "Bitcoin World" unternimmt alle wirtschaftlich vertretbaren Anstrengungen, um die Software und / oder den Dienst dem Benutzer zur Verfügung zu stellen. "Bitcoin World" übernimmt keine Verantwortung oder Haftung für Verluste oder Schäden, die durch die Nutzung, den Betrieb oder die Leistung des Dienstes und / oder der Software entstehen oder entstehen, sowie für direkte, indirekte, strafende, zufällige, besondere oder Folgeschäden, die entstehen entstehen aus Fehlern, Ungenauigkeiten, Auslassungen, Verzögerungen oder anderen Fehlern aufgrund von Fehlern Dritter.
+            p#p52 "Bitcoin World" gibt keinerlei Zusicherungen ab und garantiert oder unterstützt nicht die Qualität, Nichtverletzung, Genauigkeit, Vollständigkeit oder Zuverlässigkeit solcher Materialien, Programme, Produkte von Drittanbietern, die auf dieser Website angezeigt werden oder auf die Sie über einen Link zugreifen können auf dieser Website. Ihre Korrespondenz oder sonstige Geschäfte mit solchen Dritten, die auf dieser Website zu finden sind, erfolgen ausschließlich zwischen Ihnen und diesen Dritten. Dementsprechend lehnt "Bitcoin World" ausdrücklich die Verantwortung für den Inhalt, die Materialien, die Genauigkeit und / oder die Qualität der Informationen, Produkte und / oder Dienstleistungen ab, die über diese Websites Dritter verfügbar oder beworben werden.
+            p#p54 6. Haftungsausschluss.
+            p#p52 Keine Garantien Sie verstehen und akzeptieren, dass "Bitcoin World" nicht garantieren oder garantieren kann, dass die zum Herunterladen über die Website verfügbare Software frei von Infektionen oder Viren, Würmern, Trojanern oder anderem Code ist, der kontaminierende oder zerstörerische Eigenschaften aufweist. Sie sind dafür verantwortlich, auf Ihrem PC ausreichende Verfahren und Kontrollpunkte zu implementieren, um Ihre besonderen Anforderungen an die Genauigkeit der Dateneingabe und -ausgabe zu erfüllen, und ein externes Mittel zur Rekonstruktion verlorener Daten bereitzustellen.
+            p#p52 SIE VERSTEHEN UND STIMMEN ZU, DIE GESAMTVERANTWORTUNG UND DAS RISIKO FÜR DIE NUTZUNG DER WEBSITE ZU ÜBERNEHMEN. "Bitcoin World" STELLT DIE WEBSITE UND ZUGEHÖRIGE INFORMATIONEN "WIE BESEHEN" ZUR VERFÜGUNG UND ÜBERNIMMT KEINE AUSDRÜCKLICHEN ODER STILLSCHWEIGENDEN GEWÄHRLEISTUNGEN, ZUSICHERUNGEN ODER ENDORSEMENTS. "Bitcoin World" lehnt ausdrücklich jegliche stillschweigende Gewährleistung von Titel, Handelsfähigkeit oder Eignung für einen bestimmten Zweck und Nichtverletzung ab. IN BEZUG AUF DIE WEBSITE, DEN SERVICE, DIE SOFTWARE, JEGLICHE INFORMATIONEN ODER INFORMATIONEN ODER LINKS VON DRITTANBIETERN, DIE DURCHGEFÜHRT WERDEN, HAFTET "Bitcoin World" nicht für Kosten oder Schäden, die direkt oder indirekt aus solchen Transaktionen entstehen. Es liegt allein in Ihrer Verantwortung, die Genauigkeit, Vollständigkeit und Nützlichkeit aller Meinungen, Ratschläge, Dienstleistungen, Waren und sonstigen Informationen, die über den Dienst bereitgestellt werden, zu bewerten. "Bitcoin World" GARANTIERT NICHT, DASS DER SERVICE UNTERBROCHEN ODER FEHLERFREI IST ODER DASS FEHLER IM SERVICE BEHEBT WERDEN. SIE VERSTEHEN WEITER, DASS DIE REINE NATUR DES INTERNETS UNBEARBEITETE MATERIALIEN ENTHÄLT, DIE SEXUELL EXPLIZIT SIND ODER FÜR SIE BELEIDIGEND SEIN KÖNNEN. IHR ZUGRIFF AUF DIESE MATERIALIEN ERFOLGT AUF EIGENES RISIKO. "Bitcoin World" HAT KEINE KONTROLLE UND ÜBERNIMMT KEINE VERANTWORTUNG FÜR DIESE MATERIALIEN.
+            p#p52 In keinem Fall haftet "Bitcoin World" für Schadensersatzansprüche (einschließlich direkter, indirekter, Folgeschäden oder besonderer Schäden), selbst wenn dies auf die Möglichkeit solcher Schäden hingewiesen wird, die sich aus Ihrer Nutzung oder persönlichen Abhängigkeit ergeben.
+            p#p54 7. Entschädigung.
+            p#p52 Sie erklären sich damit einverstanden, "Bitcoin World", seine verbundenen Unternehmen und alle ihre jeweiligen leitenden Angestellten, Direktoren, Mitarbeiter, Vertreter, Lizenzgeber, Anwälte, Nachfolger und Abtretungen von und gegen alle Ansprüche, Verfahren, Verletzungen, Verbindlichkeiten, zu entschädigen, zu verteidigen und schadlos zu halten. Verluste, Schäden, Kosten und Aufwendungen, einschließlich angemessener Anwaltskosten und Prozesskosten, im Zusammenhang mit oder aufgrund von Verstößen oder Verstößen gegen diese Vereinbarung durch Sie (einschließlich fahrlässiges oder rücksichtsloses Verhalten). Jede der oben genannten Personen oder Organisationen behält sich das Recht vor, diese Bestimmungen in ihrem eigenen Namen direkt gegen Sie geltend zu machen und durchzusetzen.
+            p#p54 8. Benutzerpflichten.
+            p#p52 Wenn Sie falsche, ungenaue, unwahre oder unvollständige Informationen angeben, behält sich "Bitcoin World" das Recht vor, Ihren Zugriff auf und Ihre Nutzung der Website und des Dienstes sofort zu beenden. Sie erklären sich damit einverstanden, alle geltenden lokalen, staatlichen, nationalen und internationalen Gesetze und Vorschriften in Bezug auf Ihre Nutzung der Website und des Dienstes einzuhalten. Darüber hinaus erkennen Sie an und stimmen zu, dass die Nutzung des Internets und der Zugriff auf oder die Übertragung oder Kommunikation mit der Website ausschließlich auf Ihr eigenes Risiko erfolgt. Während "Bitcoin World" sich bemüht hat, eine sichere und zuverlässige Website zu erstellen, sollten Sie verstehen, dass die Vertraulichkeit solcher Mitteilungen nicht garantiert werden kann. Dementsprechend ist "Bitcoin World" nicht verantwortlich für die Sicherheit oder Verletzung von Informationen, die zur oder von der Website übertragen werden. Sie erklären sich damit einverstanden, die gesamte Verantwortung für Aktivitäten im Zusammenhang mit Ihrer Nutzung der Website zu übernehmen, einschließlich, aber nicht beschränkt auf das Erhalten und Bezahlen aller Lizenzen und Kosten für Software und Hardware von Drittanbietern, die für die Implementierung der Website und ihrer herunterladbaren Software sowie für die Wartung oder Wartung erforderlich sind Sichern von Daten.
+            p#p54 9. Benutzername- und Passwortrichtlinien.
+            p#p52 Für die Registrierung als autorisierter Benutzer für den Zugriff auf bestimmte Bereiche der Website sind möglicherweise sowohl ein Benutzername als auch ein Kennwort erforderlich. Nur ein autorisierter Benutzer kann einen Benutzernamen, ein Kennwort und ein Konto verwenden. Mehrere Konten, die von derselben Person oder Organisation registriert wurden, sind nicht zulässig und können dazu führen, dass ein, einige oder alle Konten von "Bitcoin World" geschlossen werden. Durch die Nutzung der Website erklären Sie sich damit einverstanden, Ihren Benutzernamen und Ihr Passwort als vertrauliche Informationen zu behandeln. Sie stimmen auch zu, das Konto eines anderen autorisierten Benutzers nicht zu verwenden. Sollten Sie Kenntnis von einem Verlust oder Diebstahl Ihres Passworts oder einer unbefugten Verwendung Ihres Namens und Passworts erhalten, werden Sie sofort über "Bitcoin World" informiert. "Bitcoin World" kann und wird nicht für Verluste oder Schäden haftbar gemacht werden, die sich aus der Nichteinhaltung dieser Verpflichtungen ergeben. "Bitcoin World" behält sich außerdem das Recht vor, einen Benutzernamen oder ein Passwort jederzeit und aus irgendeinem Grund zu löschen oder (mit Vorankündigung) zu ändern. "Bitcoin World" haftet nicht für Schäden, die durch Diebstahl oder unbefugte Verwendung Ihres Benutzernamens und Passworts verursacht wurden, unabhängig davon, ob Sie dies "Bitcoin World" gemeldet haben oder nicht.
+            p#p54 10. Datenschutzerklärung.
+            p#p52 Sie verstehen, erkennen an und stimmen zu, dass der Betrieb bestimmter Programme, Dienste, Tools, Materialien oder Informationen der Website die Übermittlung, Verwendung und Verbreitung verschiedener personenbezogener Daten erfordert. Wenn Sie auf diese Programme, Dienste, Tools, Materialien oder Informationen auf der Website zugreifen und diese nutzen möchten, erkennen Sie an und stimmen zu, dass Ihre Nutzung der Website die Akzeptanz der Erfassungs- und Verwendungspraktiken für personenbezogene Daten von Bitcoin World darstellt zum Schutz Ihrer persönlichen Daten, wie in unserer Datenschutzerklärung beschrieben. Bitte lesen Sie unsere Datenschutzbestimmungen, bevor Sie personenbezogene Daten auf dieser Website angeben.
+            p#p54 11. Nichtig, wo verboten.
+            p#p52 Jedes Angebot für Produkte oder Dienstleistungen auf dieser Website ist ungültig, sofern dies verboten ist. Darüber hinaus macht "Bitcoin World" keine Zusicherungen hinsichtlich der Rechtmäßigkeit des Zugriffs auf oder der Nutzung der Website, ihres Inhalts, des Dienstes und der Software in einem Land. Obwohl die Website möglicherweise weltweit zugänglich ist, sind nicht alle Funktionen, Produkte oder Dienstleistungen, die über oder auf der Website bereitgestellt oder angeboten werden, für die Verwendung in allen Ländern geeignet oder verfügbar. "Bitcoin World" behält sich das Recht vor, die Bereitstellung und Menge von Funktionen, Produkten oder Dienstleistungen nach eigenem Ermessen auf eine Person oder ein geografisches Gebiet zu beschränken. Wenn Sie von einer Gerichtsbarkeit aus auf die Website zugreifen, in der die Website verboten ist, dürfen Sie dies nicht tun. Dies geschieht auf eigenes Risiko. Sie sind allein dafür verantwortlich, alle geltenden örtlichen Vorschriften einzuhalten. Personen unter 18 Jahren dürfen die Website nicht nutzen.
+            p#p54 12. Kein Rat.
+            p#p52 Sie erkennen an, dass weder die Website noch der Service berechtigt sind, Rechts-, Steuer-, Buchhaltungs- oder Anlageberatung oder Empfehlungen in Bezug auf Eignung, Rentabilität, Anlagestrategie oder andere Angelegenheiten anzubieten.
+            p#p54 13. Durchsetzung der Website-Sicherheit.
+            p#p52 Die tatsächliche oder versuchte unbefugte Nutzung dieser Website kann zu strafrechtlicher und / oder zivilrechtlicher Verfolgung führen. "Bitcoin World" behält sich das Recht vor, Aktivitäten auf der Website ohne vorherige Ankündigung oder Erlaubnis des Benutzers anzuzeigen, zu überwachen und aufzuzeichnen, einschließlich, ohne Einschränkung, durch Archivierung von Mitteilungen oder Mitteilungen, die Sie über die Website gesendet haben. Darüber hinaus behält sich "Bitcoin World" das Recht vor, jederzeit und ohne vorherige Ankündigung den Betrieb oder den Zugriff auf die Website oder einen Teil davon zu ändern, auszusetzen, zu beenden oder zu unterbrechen, um die Website oder "Bitcoin World" zu schützen. s Geschäft.
+            p#p54 14. Hinweis auf Sicherheitsverletzung.
+            p#p52 Zusätzlich zu der in diesen Nutzungsbedingungen angegebenen Freistellungsverpflichtung, wenn Sie Kenntnis von einer Verletzung oder potenziellen Sicherheitsverletzung in Bezug auf identifizierende personenbezogene Daten erhalten, die "Bitcoin World" zur Verfügung gestellt oder von diesen zur Verfügung gestellt werden, oder von nicht autorisiertem Hacken der Website Sie müssen (i) "Bitcoin World" unverzüglich über einen solchen Verstoß oder einen möglichen Verstoß informieren, (ii) "Bitcoin World" bei Bedarf unterstützen, um einen solchen Verstoß zu verhindern oder zu beheben, und (iii) "Bitcoin World" die Einhaltung ermöglichen alle geltenden Gesetze, die die Meldung einer Sicherheitsverletzung vorschreiben, die zu Verstößen im Zusammenhang mit der Identifizierung personenbezogener Daten führt.
+            p#p54 15. Laufzeit und Kündigung.
+            p#p52 Diese Nutzungsbedingungen, die Ihr Recht zur Nutzung der Website regeln, werden zum Zeitpunkt des Zugriffs auf oder der Nutzung der Website wirksam und gelten bis zur Aktualisierung oder Kündigung wie nachstehend beschrieben. Diese Vereinbarung oder ein Teil davon kann von "Bitcoin World" jederzeit und aus irgendeinem Grund ohne vorherige Ankündigung gekündigt werden. Darüber hinaus behält sich "Bitcoin World" das Recht vor, jederzeit und aus vernünftigen Gründen, wie zum Beispiel einer vernünftigen Annahme betrügerischer oder rechtswidriger Aktivitäten oder Handlungen oder Unterlassungen, die gegen eine Bestimmung oder Bedingung dieser Bedingungen verstoßen, Ihren Zugang zur Website zu verweigern. ganz oder teilweise, um "Bitcoin World", seinen Namen und seinen guten Willen, sein Geschäft und / oder andere autorisierte Benutzer zu schützen. Wenn dies geschieht oder Sie diese Nutzungsbedingungen nicht einhalten, unterliegt die Kündigung den nachstehend beschriebenen Überlebensrechten. Sie können diese Vereinbarung auch jederzeit kündigen, indem Sie die Nutzung der Website einstellen, vorbehaltlich der nachstehenden Überlebensrechte. Die Kündigung ist ohne vorherige Ankündigung wirksam. Nach der Kündigung müssen Sie alle Kopien aller von Ihnen erstellten Aspekte der Website vernichten und heruntergeladene Software aus Ihrem Besitz entfernen.
+            p#p52 Die folgenden Bestimmungen gelten auch nach Beendigung der Nutzungsbedingungen der Website aus irgendeinem Grund: Gewinn- und Einkommensausschluss (Nr. 1), Eigentumsrechte (Nr. 2), eingeschränkte Lizenzgewährung (Nr. 3), Lizenzbeschränkungen (Nr. 4), Dritte Haftungsausschluss (Nr. 5), Haftungsausschluss - Keine Gewährleistungen (Nr. 6), Freistellung (Nr. 7), geltendes Recht (Nr. 16) und Sonstiges (Nr. 17).
+            p#p54 16. Geltendes Recht und Streitbeilegung.
+            p#p52 Diese Nutzungsbedingungen und alle Streitigkeiten oder Ansprüche, die sich aus oder im Zusammenhang damit ergeben, unterliegen den Gesetzen des Vereinigten Königreichs. Im Falle von Rechtsvorschriften hat das britische Recht Vorrang. Jeder Klagegrund oder Anspruch, der sich aus der Nutzung der Website ergibt, muss innerhalb eines (1) Jahres nach dem Auftreten des Klagegrundes oder des Klagegrundes eingeleitet werden, oder die Einreichung eines solchen Klagegrundes oder Klagegrundes ist ausgeschlossen.
+            p#p52 Die Vertragsparteien werden nach Treu und Glauben versuchen, eine Einigung über Ansprüche oder Streitigkeiten zwischen ihnen auszuhandeln, die sich aus oder im Zusammenhang mit dieser Vereinbarung ergeben. Wenn sich die Parteien nicht auf Vergleichsbedingungen einigen, kann jede Seite den Streit einem vertraulichen Schiedsverfahren durch einen Einzelschiedsrichter gemäß den ICC ADR-Regeln unterziehen, dessen Entscheidung endgültig und bindend ist. Das Schiedsverfahren wird in englischer Sprache, in London, im Vereinigten Königreich oder an einem anderen von den Vertragsparteien vereinbarten Ort durchgeführt. Ohne Abweichung von den vorstehenden Bestimmungen legt diese Klausel ausdrücklich die ausschließliche Zuständigkeit für das Schiedsverfahren fest, und keine Partei ist berechtigt, Streitigkeiten vor den Gerichten ihres Wohnsitzes einzureichen, die dem Schiedsverfahren widersprechen.
+            p#p54 17. Verschiedenes.
+            p#p52 Sie stimmen zu, dass diese Nutzungsbedingungen dem Benutzer und "Bitcoin World" zugute kommen. Daher sind diese Bedingungen für Sie persönlich und nicht abtretbar. Aufgrund dieser Nutzungsbedingungen oder aufgrund Ihrer Nutzung der Website besteht zwischen Ihnen und "Bitcoin World" kein Joint Venture, keine Partnerschaft, kein Arbeitsverhältnis oder keine Agenturbeziehung. Das Versäumnis von "Bitcoin World", auf der strikten Einhaltung einer Bestimmung dieser Vereinbarung zu bestehen oder diese durchzusetzen, gilt nicht als Verzicht auf eine Bestimmung oder ein Recht gemäß diesen Nutzungsbedingungen oder dem Gesetz. "Bitcoin World" kann seine Rechte und Pflichten aus dieser Vereinbarung an jede Partei und jederzeit ohne Benachrichtigung des Benutzers übertragen. Diese Nutzungsbedingungen stellen zusammen mit den Datenschutzbestimmungen von "Bitcoin World" die gesamte Vereinbarung zwischen Ihnen und 'Online Wealth Markets' in Bezug auf die Nutzung der Website dar und ersetzen alle vorherigen oder gleichzeitigen Mitteilungen und Vorschläge, ob elektronisch, mündlich, oder zwischen Ihnen und "Bitcoin World" geschrieben.
+            p#p54 18. Salvatorische Klausel.
+            p#p52 Sollte eine Bestimmung dieser Nutzungsbedingungen von einem zuständigen Gericht für ungültig oder anderweitig nicht durchsetzbar erklärt werden oder aufgrund eines Konflikts mit einer geltenden staatlichen Vorschrift, hat diese Feststellung keine Auswirkungen auf die übrigen hierin enthaltenen Bestimmungen (oder Teile davon). Jeder ungültige oder nicht durchsetzbare Teil sollte in der geänderten Fassung ausgelegt werden, um so genau wie möglich den gleichen Effekt wie die Nutzungsbedingungen wie im Originalentwurf zu erzielen.
+            p#p52 Copyright © 2020 "Bitcoin World"
+            .text-center#c52
+                button.btn.btn-outline-secondary#b52 Schließen
+    .text-center#viewport3
+        .text-center#bg
+        .text-center.rounded#wrapper
+            .text-center#c50
+                .text-center#c51
+                    img#logo(
+                        src='/images/bitcoin.png'
+                        class='align-top'
+                    )
+                    span#title1 Bitcoin 
+                    span#title2 World 
+                .text-center#p50 PRIVATSPHÄRE
+                img#p513(
+                        src='/images/close.png'
+                        class='align-top'
+                    )
+            p#p53 Zustimmung zur Sammlung, Verwendung und Weitergabe
+            p#p52 Durch Ihre Nutzung der Website "Bitcoin World" und / oder Ihre Registrierung für Produkte und Dienstleistungen von "Bitcoin World" stimmen Sie den Bestimmungen dieser Datenschutzrichtlinie zu. Wenn Sie den Bestimmungen dieser Datenschutzrichtlinie nicht zustimmen, verwenden Sie bitte nicht die Website "Bitcoin World". Ein Kunde kann seine Einwilligung zur Sammlung, Verwendung und Offenlegung jederzeit widerrufen, indem er eine E-Mail an unsubscribe@thebitcoinWorld.com sendet. Bitte beachten Sie, dass "Bitcoin World" in diesem Fall die Bereitstellung von Produkten und Dienstleistungen für Sie einstellen kann.
+            p#p53 Rechenschaftspflicht
+            p#p52 "Bitcoin World" sammelt zum Zeitpunkt Ihrer Registrierung und Ihrer Anmeldung auf seiner Website bestimmte persönliche Informationen (Informationen, die Sie persönlich identifizieren), einschließlich, aber nicht beschränkt auf Ihren Namen, Ihre E-Mail-Adresse, Ihre Privat- oder Geschäftsadresse, Ihre Telefonnummer und Informationen zu Ihrer Computerhardware und -software (z. B. IP-Adresse, Betriebssystem, Browsertyp, Domainname, URL, Zugriffszeiten und verweisende Website-Adressen).
+            p#p53 Zwecke zum Sammeln persönlicher Informationen
+            p#p52 "Bitcoin World" sammelt und verwendet persönliche Informationen für die folgenden identifizierten Zwecke:
+            p#p52 3 (a). Kundenbedürfnisse in Bezug auf "Bitcoin World" -Dienste zu verstehen.
+            p#p52 3 (b). Entwicklung und Bereitstellung unserer Website sowie unserer Produkte und Dienstleistungen für unsere Kunden.
+            p#p52 3 (c). um Ihre Anfragen nach Produkten, Dienstleistungen oder Informationen zu erfüllen.
+            p#p52 3 (d). bei Bedarf mit Kunden und Besuchern der Website zu kommunizieren und Kunden über Upgrades sowie andere Produkte und Dienstleistungen zu informieren, die von "Bitcoin World", seinen Partnern und Dritten erhältlich sind.
+            p#p52 3 (e). geltende Gesetze, Vorschriften, Rechtsverfahren oder behördliche Anforderungen einzuhalten.
+            p#p52 3 (f). um auf eine berechtigte Behauptung zu antworten oder um unsere begründete Überzeugung anzusprechen, dass Sie die Rechte Dritter oder eine der Vereinbarungen oder Richtlinien verletzen, die Ihre Nutzung der Website "Bitcoin World" oder eines Produkts oder einer Dienstleistung von "Bitcoin World" regeln.
+            p#p52 3 (g). zum Schutz der Dienste, Produkte oder Rechte von "Bitcoin World", einschließlich, aber nicht beschränkt auf die Sicherheit oder Integrität der "Bitcoin World"-Site; und
+            p#p52 3 (h). Identifizierung und Lösung technischer Probleme in Bezug auf die Website, Produkte und Dienstleistungen von "Bitcoin World".
+            p#p52 "Bitcoin World" verwendet personenbezogene Daten auch in aggregierter Form (d. H. Nicht individuell Ihnen zuzuordnen) für Geschäftsanalyse-, Betriebs-, Marketing- und andere Werbezwecke. Wenn wir andere Unternehmen beauftragen, einige Produkte oder Dienstleistungen in unserem Namen bereitzustellen, stellen wir diesen Unternehmen nur die persönlichen Informationen zur Verfügung, die sie für die identifizierten Zwecke benötigen, und wir beschränken ihre Rechte zur Nutzung und weiteren Offenlegung Ihrer persönlichen Informationen, wie in der Verlauf ihrer Arbeit für uns.
+            p#p53 Einschränkung der Erfassung personenbezogener Daten
+            p#p52 "Bitcoin World" beschränkt seine Sammlung persönlicher Informationen nur auf die Informationen, die für die identifizierten Zwecke erforderlich sind. "Bitcoin World" leitet seine Website weder weiter noch sammelt es wissentlich personenbezogene Daten von Kindern unter 13 Jahren.
+            p#p53 Offenlegung, Verarbeitung und Aufbewahrung
+            p#p52 "Bitcoin World" verkauft, vermietet oder gibt Ihre persönlichen Daten nicht an Dritte weiter, außer:
+            p#p52 5 (a). an jemanden, den Sie als Ihren Agenten für einen oder mehrere der identifizierten Zwecke bestimmt haben (siehe Abschnitt 2 oben).
+            p#p52 5 (b). an Mitarbeiter von "Bitcoin World", unabhängige Auftragnehmer, Tochterunternehmen, Berater, Geschäftspartner, Dienstleister, Lieferanten und Vertreter, die im Namen von "Bitcoin World" für einen der identifizierten Zwecke handeln.
+            p#p52 5 (c). falls erforderlich, wenn "Bitcoin World" Grund zu der Annahme hat, dass eine Offenlegung erforderlich ist, um jemanden zu identifizieren, zu kontaktieren oder rechtliche Schritte gegen ihn einzuleiten, der möglicherweise (absichtlich oder unbeabsichtigt) die Rechte oder das Eigentum von "Bitcoin World" verletzt oder beeinträchtigt Benutzer der Website, Produkte oder Dienstleistungen von "Bitcoin World" oder sonstige Personen, die durch solche Aktivitäten geschädigt werden könnten.
+            p#p52 5 (d). auf Gerichtsverfahren zu reagieren und Strafverfolgungsbehörden oder im Zusammenhang mit einer Untersuchung in Fragen der öffentlichen Sicherheit Informationen zur Verfügung zu stellen, soweit dies gesetzlich zulässig oder anderweitig gesetzlich vorgeschrieben ist.
+            p#p52 Während wir unser Geschäft weiterentwickeln, können wir außerdem andere Geschäfte oder Einheiten verkaufen oder kaufen oder uns mit einem anderen Unternehmen zusammenschließen. Bei solchen Transaktionen können personenbezogene Daten eines der übertragenen Geschäftsgüter sein. Für den Fall, dass "Bitcoin World" oder im Wesentlichen alle seine Vermögenswerte erworben werden, können Ihre persönlichen Daten eines der übertragenen Vermögenswerte sein. Ihre Daten können in Großbritannien oder in einem anderen Land gespeichert und verarbeitet werden, in dem "Bitcoin World" oder seine Tochtergesellschaften oder Vertreter Einrichtungen unterhalten. Durch die Nutzung dieser Website stimmen Sie einer solchen Übertragung von Informationen außerhalb Ihres Landes zu. Nachdem Ihr Konto inaktiv geworden ist (dh wenn Sie die Entfernung aus unserer Datenbank beantragen), speichert "Bitcoin World" Ihre persönlichen Daten in seinen Archiven. Ihre Daten werden dann nur verwendet, wenn dies aus steuerlichen Gründen oder zum Nachweis der Einhaltung geltender Gesetze durch den Bitcoin World erforderlich ist.
+            p#p53 Genauigkeit der persönlichen Daten
+            p#p52 "Bitcoin World" wird angemessene Anstrengungen unternehmen, um die persönlichen Informationen des Kunden für die identifizierten Zwecke korrekt zu halten und die Möglichkeit zu minimieren, auf der Grundlage dieser Informationen unangemessene Kundenentscheidungen zu treffen. Kunden sind dafür verantwortlich, "Bitcoin World" über Änderungen ihrer persönlichen Daten zu informieren.
+            p#p53 Sicherheit
+            p#p52 "Bitcoin World" wird angemessene Anstrengungen unternehmen, um die persönlichen Daten der Kunden zu schützen.
+            p#p53 Zugang zu persönlichen Informationen
+            p#p52 Das Gesetz gibt Ihnen das Recht, auf Informationen zuzugreifen, die über Sie gespeichert sind. Ihr Zugangsrecht kann gemäß dem Gesetz ausgeübt werden. Für jede Zugangsanfrage wird möglicherweise eine Gebühr von 10 USD erhoben, um unsere Kosten für die Bereitstellung von Details zu den Informationen, die wir über Sie haben, zu decken.
+            p#p53 Allgemeines
+            p#p52 Wenn "Bitcoin World" keinen Zugriff auf bestimmte Aspekte der persönlichen Daten eines Kunden gewähren kann, gibt es Gründe für die Verweigerung des Zugriffs, z. Dies würde wahrscheinlich persönliche Informationen über einen Dritten preisgeben oder es handelt sich um vertrauliche Geschäftsinformationen oder privilegierte Mitteilungen von Anwälten oder Mandanten, oder die Informationen beziehen sich auf einen Verstoß gegen eine Vereinbarung oder einen Verstoß gegen das Gesetz oder könnten offengelegt werden Es ist vernünftigerweise zu erwarten, dass dies das Leben oder die Sicherheit einer anderen Person gefährdet.
+            p#p52 Kunden haben das Recht zu verlangen, dass ungenaue oder unvollständige Informationen gegebenenfalls geändert werden, indem sie sich wie oben beschrieben an "Bitcoin World" wenden. "Bitcoin World" korrigiert diese persönlichen Daten umgehend.
+            p#p52 Copyright © 2020 "Bitcoin World"
+            .text-center#c52
+                button.btn.btn-outline-secondary#b53 Schließen

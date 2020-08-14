@@ -55,3 +55,50 @@
 13:51:13.007 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
 14:09:35.634 INFO  ip: 192.168.1.4 
 14:10:10.324 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+10:59:50.604 INFO  ip: 192.168.1.4 
+11:00:20.727 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+14:17:36.393 INFO  ip: 192.168.1.4 
+14:17:55.735 INFO  ip: 192.168.1.4 
+14:18:30.834 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+14:27:03.841 INFO  ip: 192.168.1.4 
+14:27:37.937 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+14:28:44.584 INFO  ip: 192.168.1.4 
+14:29:18.676 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+14:35:14.428 INFO  ip: 192.168.1.4 
+14:35:48.566 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+18:56:26.268 INFO  ip: 192.168.1.4 
+18:56:54.717 INFO  ip: 192.168.1.4 
+18:57:29.813 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+20:15:09.979 INFO  ip: 192.168.1.4 
+20:15:44.077 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+20:15:55.793 INFO  ip: 192.168.1.4 
+20:16:30.465 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+20:48:24.702 INFO  ip: 192.168.1.4 
+20:48:50.551 INFO  ip: 192.168.1.4 
+20:49:25.639 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+21:11:27.270 INFO  ip: 192.168.1.4 
+21:12:01.366 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+21:51:13.559 INFO  ip: 192.168.1.4 
+21:51:47.660 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+21:55:07.466 INFO  ip: 192.168.1.4 
+21:55:19.047 INFO  ip: 192.168.1.4 
+21:55:53.328 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+23:09:04.736 INFO  ip: 192.168.1.4 
+23:09:14.177 INFO  ip: 192.168.1.4 
+23:09:49.891 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+23:10:16.337 INFO  ip: 192.168.1.4 
+23:10:50.665 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+23:11:00.686 INFO  ip: 192.168.1.4 
+23:11:34.980 INFO  ip: 192.168.1.4 
+23:12:09.074 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+23:22:46.981 INFO  ip: 192.168.1.4 
+23:23:21.085 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+23:23:33.187 INFO  ip: 192.168.1.4 
+23:24:08.282 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+00:36:31.826 INFO  ip: 192.168.1.4 
+00:36:53.511 INFO  ip: 192.168.1.4 
+00:37:28.618 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+00:59:38.360 INFO  ip: 192.168.1.4 
+01:00:12.460 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 
+01:01:06.213 INFO  ip: 192.168.1.4 
+01:01:40.315 INFO  connection error: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://docs.atlas.mongodb.com/security-whitelist/ 

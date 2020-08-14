@@ -5,13 +5,69 @@ $( document ).ready(function() {
             scrollTop: $('#c4').offset().top
           }, 500);
     })
+    
     $('#cta3').click(function(e){
         e.preventDefault();
         $('html, body').animate({
             scrollTop: $('#c4').offset().top
           }, 500);
     })
-    $("#c11").click(function(){
+
+    $('#f1').click(function(e){
+      e.preventDefault();
+      $("#viewport").show();
+      $("#body").css("overflow", "hidden")
+  
+  })
+
+  $('#f2').click(function(e){
+    e.preventDefault();
+    $("#viewport2").show();
+    $("#body").css("overflow", "hidden")
+
+})
+
+$('#f3').click(function(e){
+  e.preventDefault();
+  $("#viewport3").show();
+  $("#body").css("overflow", "hidden")
+
+})
+
+  $('#b51').click(function(e){
+    e.preventDefault();
+    $("#viewport").hide();
+    $("#body").css("overflow", "auto")
+})
+$('#p51').click(function(e){
+  e.preventDefault();
+  $("#viewport").hide();
+  $("#body").css("overflow", "auto")
+})
+
+$('#b52').click(function(e){
+  e.preventDefault();
+  $("#viewport2").hide();
+  $("#body").css("overflow", "auto")
+})
+$('#p512').click(function(e){
+e.preventDefault();
+$("#viewport2").hide();
+$("#body").css("overflow", "auto")
+})
+
+$('#b53').click(function(e){
+  e.preventDefault();
+  $("#viewport3").hide();
+  $("#body").css("overflow", "auto")
+})
+$('#p513').click(function(e){
+e.preventDefault();
+$("#viewport3").hide();
+$("#body").css("overflow", "auto")
+})
+  
+    $("#c111").click(function(){
         $("#c12").show();
         $("#c16").show();
         $("#c14").hide();
@@ -27,7 +83,7 @@ $( document ).ready(function() {
         $("#c16").hide();
         console.log("hide")
       });
-      $("#c13").click(function(){
+      $("#c113").click(function(){
         $("#c17").show();
         $("#c14").show();
         $("#c12").hide();
@@ -43,7 +99,7 @@ $( document ).ready(function() {
         $("#c17").hide();
         console.log("hide")
       });
-      $("#c15").click(function(){
+      $("#c112").click(function(){
         $("#c18").show();
         $("#c19").show();
         $("#c12").hide();
@@ -59,7 +115,7 @@ $( document ).ready(function() {
         $("#c18").hide();
         console.log("hide")
       });
-    $("#c20").click(function(){
+    $("#c114").click(function(){
         $("#c21").show();
         $("#c22").show();
         $("#c12").hide();
